@@ -1,0 +1,30 @@
+{
+  "rule_id": "termination.notice",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Prior Notice for Dismissal and Resignation Law 2001, ss.3-4",
+      "verified": false,
+      "value": {
+        "daily_divisor": 30,
+        "full_month_days": 30,
+        "monthly": {
+          "full_month_after_months": 12,
+          "segments": [
+            {"from_month": 0, "base_days": 0, "days_per_month": 1},
+            {"from_month": 6, "base_days": 6, "days_per_month": 2.5}
+          ]
+        },
+        "hourly": {
+          "full_month_after_months": 36,
+          "segments": [
+            {"from_month": 0, "base_days": 0, "days_per_month": 1},
+            {"from_month": 12, "base_days": 14, "days_per_month": 0.5},
+            {"from_month": 24, "base_days": 21, "days_per_month": 0.5}
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Design tokens. Components only use these names, never raw colors. */
+:root {
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --surface-2: #f2f4f7;
+  --surface-3: #e9ecf1;
+  --border: #e2e6ec;
+  --border-strong: #cdd3dc;
+  --text: #11151b;
+  --text-muted: #566070;
+  --text-subtle: #8892a1;
+  --accent: #9ac2f5;
+  --accent-hover: #85b4f1;
+  --accent-soft: #edf4fe;
+  --accent-ink: #2f68b0;
+  --accent-fg: #0b2540;
+  --danger: #c9343e;
+  --danger-hover: #ad2a33;
+  --danger-soft: #fcebec;
+  --warning: #a86a12;
+  --warning-soft: #fcf3e2;
+  --success: #1d8556;
+  --success-soft: #e5f4ec;
+  --info: #2867b2;
+  --info-soft: #e7f0fa;
+  --ring: rgb(154 194 245 / 0.55);
+  --shadow-sm: 0 1px 2px rgb(12 19 34 / 0.05);
+  --shadow-md: 0 6px 16px -4px rgb(12 19 34 / 0.08), 0 2px 4px -2px rgb(12 19 34 / 0.05);
+  --shadow-lg: 0 20px 44px -10px rgb(12 19 34 / 0.2), 0 4px 10px -4px rgb(12 19 34 / 0.08);
+  --glow-success: 0 0 0 1px rgb(19 138 85 / 0.12), 0 8px 24px -6px rgb(19 138 85 / 0.28);
+  --sidebar: #ffffff;
+  --scrollbar: #cdd3dc;
+  /* Chart series: distinct hues of similar weight, validated against both surfaces. */
+  --chart-1: #9ac2f5;
+  --chart-2: #14a38b;
+  --chart-3: #f29d38;
+  --chart-4: #7c5cf5;
+  --chart-5: #e5484d;
+  --chart-6: #8b95a7;
+  --chart-7: #d6409f;
+  --chart-8: #4f63d2;
+  --chart-9: #8fbf2f;
+  --chart-10: #b07a4f;
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #0c0f14;
+  --surface: #13171e;
+  --surface-2: #1a1f28;
+  --surface-3: #222833;
+  --border: #252b36;
+  --border-strong: #343c4a;
+  --text: #e6e9ee;
+  --text-muted: #9aa3b1;
+  --text-subtle: #6a7383;
+  --accent: #9ac2f5;
+  --accent-hover: #b5d3f8;
+  --accent-soft: #1c2838;
+  --accent-ink: #a9cbf7;
+  --accent-fg: #0b2540;
+  --danger: #f0646d;
+  --danger-hover: #f58088;
+  --danger-soft: #371b1f;
+  --warning: #e2a64a;
+  --warning-soft: #33270f;
+  --success: #3fbf86;
+  --success-soft: #10291e;
+  --info: #5fa3ef;
+  --info-soft: #132538;
+  --ring: rgb(154 194 245 / 0.5);
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 6px 16px -4px rgb(0 0 0 / 0.5);
+  --shadow-lg: 0 20px 44px -10px rgb(0 0 0 / 0.65);
+  --glow-success: 0 0 0 1px rgb(60 203 138 / 0.15), 0 8px 24px -6px rgb(60 203 138 / 0.25);
+  --sidebar: #13171e;
+  --scrollbar: #343c4a;
+  --chart-1: #9ac2f5;
+  --chart-2: #2cc4a8;
+  --chart-3: #f5ab52;
+  --chart-4: #9a80ff;
+  --chart-5: #f2616b;
+  --chart-6: #8792a6;
+  --chart-7: #e866b5;
+  --chart-8: #7d8cf0;
+  --chart-9: #a5d34a;
+  --chart-10: #c99468;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-text: var(--text);
+  --color-muted: var(--text-muted);
+  --color-subtle: var(--text-subtle);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-fg: var(--accent-fg);
+  --color-accent-ink: var(--accent-ink);
+  --color-sidebar: var(--sidebar);
+  --color-danger: var(--danger);
+  --color-danger-hover: var(--danger-hover);
+  --color-danger-soft: var(--danger-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --color-ring: var(--ring);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-glow-success: var(--glow-success);
+  --font-sans: var(--font-plex), var(--font-plex-hebrew), var(--font-plex-arabic), system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+  --animate-fade-in: fade-in 140ms ease-out;
+  --animate-slide-in: slide-in 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  --animate-pop-in: pop-in 140ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  --animate-loader-in: loader-in 320ms ease-out both;
+  --animate-loader-trace: loader-trace 1.2s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+  --animate-loader-breathe: loader-breathe 2.4s ease-in-out infinite;
+  --animate-loader-glow: loader-glow 2.4s ease-in-out infinite;
+  --animate-loader-bar: loader-bar 1.2s cubic-bezier(0.15, 0.65, 0.85, 0.35) infinite;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-in {
+  from { opacity: 0; transform: translateX(var(--slide-from, 24px)); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pop-in {
+  from { opacity: 0; transform: scale(0.97) translateY(4px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+[dir="rtl"] { --slide-from: -24px; }
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* The scrollbar's reserved strip shows the <html> background. Right-to-left, it sits beside the
+   sidebar, so it takes the sidebar's color and reads as part of it. */
+html[dir="rtl"] { background: var(--sidebar); }
+
+/* The page always keeps room for its scrollbar, so content and the sidebar never shift when a
+   page starts or stops scrolling. Scrollbars are thin and follow the theme. */
+html { scrollbar-gutter: stable; }
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar) transparent;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--accent-soft); }
+
+*:focus-visible { outline: 2px solid var(--ring); outline-offset: 1px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 1ms !important; transition-duration: 1ms !important; }
+}
+
+/* Page transitions (lib/pageTransition.ts sets data-phase on the page and data-nav on <html>).
+   Going forward, the page leaves away from the sidebar; going back, toward it. */
+html { --page-dx: 28px; }
+html[dir="rtl"] { --page-dx: -28px; }
+html[data-nav="back"] { --page-dx: -28px; }
+html[dir="rtl"][data-nav="back"] { --page-dx: 28px; }
+
+.page-view[data-phase="leaving"] { animation: page-out 150ms cubic-bezier(0.4, 0, 1, 1) both; pointer-events: none; }
+.page-view[data-phase="loading"] { opacity: 0; pointer-events: none; }
+.page-view[data-phase="entering"] { animation: page-in 240ms cubic-bezier(0, 0, 0.2, 1) both; }
+
+@keyframes page-out {
+  to { opacity: 0; transform: translateX(var(--page-dx)); }
+}
+
+@keyframes page-in {
+  from { opacity: 0; }
+}
+
+/* Page loader: the Paypex P traced by a moving stroke. */
+@keyframes loader-in {
+  0%, 60% { opacity: 0; transform: translateY(4px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes loader-trace {
+  from { stroke-dashoffset: 100; }
+  to { stroke-dashoffset: 0; }
+}
+@keyframes loader-breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+}
+@keyframes loader-glow {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 0.8; }
+}
+/* The line runs right to left, leaves at the left edge and comes back in from the right.
+   It starts and ends fully outside the track, so the wrap is invisible. */
+@keyframes loader-bar {
+  from { transform: translateX(300%); }
+  to { transform: translateX(-100%); }
+}
+
+/* Printing (reports for export): always on white paper, light colors, no app chrome. */
+@page {
+  margin: 14mm;
+}
+@media print {
+  :root,
+  .dark {
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --surface-2: #f2f4f7;
+    --surface-3: #e9ecf1;
+    --border: #d5dae2;
+    --border-strong: #b9c1cd;
+    --text: #11151b;
+    --text-muted: #4a5464;
+    --text-subtle: #6f7988;
+    --accent-ink: #2f68b0;
+    --accent-soft: #edf4fe;
+    --shadow-sm: none;
+    --shadow-md: none;
+    color-scheme: light;
+  }
+  body {
+    background: #ffffff;
+  }
+}

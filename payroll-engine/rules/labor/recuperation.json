@@ -1,0 +1,33 @@
+{
+  "rule_id": "labor.recuperation",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": "2026-06-30",
+      "source": "Extension order for recuperation pay, private sector: 418 NIS/day; days by seniority",
+      "verified": false,
+      "value": {
+        "day_value": 418,
+        "eligible_after_months": 12,
+        "days_by_seniority": [
+          {"from_year": 1, "days": 5}, {"from_year": 2, "days": 6}, {"from_year": 4, "days": 7},
+          {"from_year": 11, "days": 8}, {"from_year": 16, "days": 9}, {"from_year": 20, "days": 10}
+        ]
+      }
+    },
+    {
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "source": "Extension order published 18.8.2026 (general collective agreement of 22.6.2026), 451.50 NIS/day for recuperation year 2026. Reported by Shibolet: https://www.shibolet.com/?p=27077 - effective date assumed 1.7.2026",
+      "verified": false,
+      "value": {
+        "day_value": 451.50,
+        "eligible_after_months": 12,
+        "days_by_seniority": [
+          {"from_year": 1, "days": 5}, {"from_year": 2, "days": 6}, {"from_year": 4, "days": 7},
+          {"from_year": 11, "days": 8}, {"from_year": 16, "days": 9}, {"from_year": 20, "days": 10}
+        ]
+      }
+    }
+  ]
+}

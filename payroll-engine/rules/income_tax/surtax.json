@@ -1,0 +1,12 @@
+{
+  "rule_id": "income_tax.surtax",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Income Tax Ordinance s.121B (mas yesef) on earned income above 721,560 annually. Summary: https://www.kolzchut.org.il/he/מדרגות_מס_הכנסה",
+      "verified": false,
+      "value": {"monthly_threshold": 60130, "rate": 3}
+    }
+  ]
+}

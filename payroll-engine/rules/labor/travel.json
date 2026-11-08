@@ -1,0 +1,12 @@
+{
+  "rule_id": "labor.travel",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Extension order for reimbursement of travel expenses to work: daily cap 22.60 NIS",
+      "verified": false,
+      "value": {"daily_cap": 22.60}
+    }
+  ]
+}

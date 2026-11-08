@@ -1,0 +1,12 @@
+{
+  "rule_id": "income_tax.pension_credit",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Income Tax Ordinance s.45A: 35% credit on employee pension contributions up to 7% of insured salary, insured salary ceiling 9,700/month",
+      "verified": false,
+      "value": {"credit_rate": 35, "max_contribution_rate": 7, "insured_salary_ceiling": 9700}
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "rule_id": "labor.reserve_duty",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "National Insurance Law ch. 10 (reserve duty benefit): daily pay = gross of the 3 months before service / 90",
+      "verified": false,
+      "value": {"lookback_months": 3, "divisor_days": 90}
+    }
+  ]
+}

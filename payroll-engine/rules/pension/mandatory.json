@@ -1,0 +1,19 @@
+{
+  "rule_id": "pension.mandatory",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Extension order for comprehensive mandatory pension (צו הרחבה לביטוח פנסיוני מקיף במשק): employee 6%, employer 6.5%, severance 6%; waiting period 6 months (3 with prior fund); minimum age 21 men / 20 women",
+      "verified": false,
+      "value": {
+        "employee_rate": 6,
+        "employer_rate": 6.5,
+        "severance_rate": 6,
+        "waiting_months": 6,
+        "waiting_months_with_prior_fund": 3,
+        "min_age": {"male": 21, "female": 20}
+      }
+    }
+  ]
+}

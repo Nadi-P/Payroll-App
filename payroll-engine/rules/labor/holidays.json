@@ -1,0 +1,17 @@
+{
+  "rule_id": "labor.holidays",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Extension order for holiday pay: hourly employees with 3 months of service are paid for holidays that do not fall on Saturday",
+      "verified": false,
+      "value": {
+        "eligible_after_months": 3,
+        "unpaid_on_weekdays": [
+          "saturday"
+        ]
+      }
+    }
+  ]
+}

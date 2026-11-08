@@ -1,0 +1,12 @@
+{
+  "rule_id": "income_tax.credit_point_value",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Credit point value frozen 2025-2027 at 242 NIS/month (2,904 annually). Summary: https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה - confirm against Israel Tax Authority",
+      "verified": false,
+      "value": {"monthly": 242}
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "rule_id": "national_insurance.ages",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "National Insurance Law: adult rates from age 18; retirement age 67 for men, women's age rising gradually (approximated as 63) - confirm per birth date against NII retirement-age table",
+      "verified": false,
+      "value": {"adult_from_age": 18, "retirement_age": {"male": 67, "female": 63}}
+    }
+  ]
+}

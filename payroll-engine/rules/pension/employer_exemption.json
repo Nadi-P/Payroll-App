@@ -1,0 +1,12 @@
+{
+  "rule_id": "pension.employer_exemption",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Income Tax Ordinance s.3(e3): employer pension deposits taxable above 7.5% of salary capped at 2.5x average wage (34,423 in 2026); severance deposits taxable above 8.33% of salary capped at 45,600. 2025 caps not yet sourced",
+      "verified": false,
+      "value": {"pension_max_rate": 7.5, "pension_salary_cap": 34423, "severance_max_rate": 8.33, "severance_salary_cap": 45600}
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "rule_id": "national_insurance.rates",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-01-31",
+      "source": "National Insurance Institute employee rates page; full-rate health tax rose to 5.17% only from 01.02.2025, January 2025 value assumed 5.0",
+      "verified": false,
+      "value": {
+        "standard": {"employee_bl": {"reduced": 1.04, "full": 7}, "employee_health": {"reduced": 3.23, "full": 5}, "employer_bl": {"reduced": 4.51, "full": 7.6}},
+        "under_18": {"employee_bl": {"reduced": 0, "full": 0}, "employee_health": {"reduced": 0, "full": 0}, "employer_bl": {"reduced": 0.61, "full": 2.12}},
+        "retirement_age": {"employee_bl": {"reduced": 0, "full": 0}, "employee_health": {"reduced": 3.23, "full": 5.17}, "employer_bl": {"reduced": 0.61, "full": 2.12}}
+      }
+    },
+    {
+      "effective_from": "2025-02-01",
+      "effective_to": null,
+      "source": "National Insurance Institute, rates for salaried employees (Form 102 columns), effective 01.02.2025 https://www.btl.gov.il/Insurance/Rates/Pages/לעובדים%20שכירים.aspx",
+      "verified": true,
+      "value": {
+        "standard": {"employee_bl": {"reduced": 1.04, "full": 7}, "employee_health": {"reduced": 3.23, "full": 5.17}, "employer_bl": {"reduced": 4.51, "full": 7.6}},
+        "under_18": {"employee_bl": {"reduced": 0, "full": 0}, "employee_health": {"reduced": 0, "full": 0}, "employer_bl": {"reduced": 0.61, "full": 2.12}},
+        "retirement_age": {"employee_bl": {"reduced": 0, "full": 0}, "employee_health": {"reduced": 3.23, "full": 5.17}, "employer_bl": {"reduced": 0.61, "full": 2.12}}
+      }
+    }
+  ]
+}

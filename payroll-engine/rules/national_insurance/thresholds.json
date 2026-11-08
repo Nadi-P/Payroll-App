@@ -1,0 +1,19 @@
+{
+  "rule_id": "national_insurance.thresholds",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "source": "National Insurance Institute employee rates page (2025 values) https://www.btl.gov.il/Insurance/Rates/Pages/לעובדים%20שכירים.aspx",
+      "verified": false,
+      "value": {"reduced_up_to": 7522, "ceiling": 50695}
+    },
+    {
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source": "National Insurance Institute, rates for salaried employees, effective 01.01.2026 https://www.btl.gov.il/Insurance/Rates/Pages/לעובדים%20שכירים.aspx",
+      "verified": true,
+      "value": {"reduced_up_to": 7703, "ceiling": 51910}
+    }
+  ]
+}

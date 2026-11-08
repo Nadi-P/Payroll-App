@@ -1,0 +1,12 @@
+{
+  "rule_id": "termination.severance",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Severance Pay Law 1963 (one month per year, full coverage 8.33%); Income Tax Ordinance s.9(7a): exemption up to 13,750 per year of service and 1.5x monthly salary per year",
+      "verified": false,
+      "value": {"full_rate": 8.33, "exempt_per_year": 13750, "exempt_salary_multiple": 1.5}
+    }
+  ]
+}

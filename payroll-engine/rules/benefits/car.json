@@ -1,0 +1,12 @@
+{
+  "rule_id": "benefits.car",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Income Tax (Value of Vehicle Use) Regulations 1987: 2.48% of list price, monthly reductions for electric/hybrid vehicles - confirm reduction amounts",
+      "verified": false,
+      "value": {"list_price_rate": 2.48, "reductions": {"electric": 1350, "plug_in_hybrid": 1090, "hybrid": 560}}
+    }
+  ]
+}

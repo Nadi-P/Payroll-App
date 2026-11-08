@@ -1,0 +1,1478 @@
+{
+  "app": {
+    "name": "Paypex"
+  },
+  "locales": {
+    "he": "עברית",
+    "en": "English",
+    "ar": "العربية",
+    "ru": "Русский"
+  },
+  "common": {
+    "retry": "Try again",
+    "close": "Close",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving…",
+    "back": "Back",
+    "next": "Next",
+    "edit": "Edit",
+    "total": "Total",
+    "explain": "Click to see how this was calculated",
+    "selectAll": "Select all",
+    "selectNone": "Clear all"
+  },
+  "errors": {
+    "apiTitle": "Can't reach the payroll engine",
+    "apiBody": "Start the engine API (port 8000) and try again.",
+    "actionFailed": "That didn't work"
+  },
+  "status": {
+    "approved": "Approved",
+    "blocked": "Needs fixes",
+    "ready": "Ready to approve",
+    "draft": "Draft"
+  },
+  "shell": {
+    "sidebar": "Main navigation",
+    "openMenu": "Open menu",
+    "search": "Search",
+    "searchShortcut": "Ctrl K",
+    "company": "Company",
+    "month": "Pay month",
+    "chooseCompany": "Choose a company",
+    "language": "Language",
+    "theme": {
+      "label": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "lawVersion": "Law version {version}",
+    "viewRules": "View law & rules",
+    "breadcrumbs": "Breadcrumbs",
+    "loading": "Loading",
+    "user": "Signed in as"
+  },
+  "nav": {
+    "sections": {
+      "workspace": "Workspace",
+      "company": "Company",
+      "tools": "Tools",
+      "later": "Coming later"
+    },
+    "portfolio": "Portfolio",
+    "payroll": "Payroll month",
+    "employees": "Employees",
+    "exceptions": "Exceptions",
+    "termination": "Termination",
+    "corrections": "Corrections",
+    "reports": "Regulatory reports",
+    "settings": "Settings",
+    "simulator": "Payslip simulator",
+    "rules": "Law & rules",
+    "migration": "Migration",
+    "assistant": "AI assistant",
+    "portal": "Employee portal",
+    "loader": "Loading animation",
+    "soon": "Soon",
+    "dataHistory": "Data history"
+  },
+  "palette": {
+    "title": "Command palette",
+    "placeholder": "Search pages, companies, employees…",
+    "empty": "No results",
+    "navigate": "Navigate",
+    "select": "Open",
+    "groups": {
+      "pages": "Pages",
+      "companies": "Companies",
+      "employees": "Employees",
+      "actions": "Actions"
+    },
+    "actions": {
+      "toggleTheme": "Switch light / dark",
+      "language": "Language: {name}"
+    }
+  },
+  "portfolio": {
+    "title": "Clients",
+    "card": {
+      "producedOf": "{produced} of {expected} produced"
+    },
+    "progress": {
+      "notStarted": "Not started",
+      "inProgress": "In progress",
+      "sent": "Produced and sent",
+      "closed": "Month closed"
+    },
+    "add": {
+      "action": "Add company",
+      "save": "Add"
+    },
+    "search": "Search clients",
+    "free": "Free",
+    "assign": "Assign",
+    "openEarlier": "Still open: {months}",
+    "views": {
+      "label": "Which clients",
+      "mine": "My clients · {count}",
+      "free": "Free clients · {count}",
+      "all": "All · {count}"
+    },
+    "columns": {
+      "client": "Client",
+      "employees": "Active employees",
+      "payslips": "Payslips",
+      "status": "Status",
+      "alerts": "Errors and warnings",
+      "assignees": "Assigned to"
+    },
+    "empty": {
+      "mine": "No clients are assigned to you",
+      "free": "Every client is assigned",
+      "all": "No clients yet"
+    }
+  },
+  "units": {
+    "days": "days",
+    "hours": "hrs"
+  },
+  "employee": {
+    "kinds": {
+      "monthly": "Monthly",
+      "hourly": "Hourly"
+    }
+  },
+  "payroll": {
+    "title": "{company} — Payroll",
+    "recalculating": "Recalculating…",
+    "reopen": "Reopen for corrections",
+    "reviewExceptions": "Review issues",
+    "stats": {
+      "employees": "Employees",
+      "gross": "Gross pay",
+      "tax": "Income tax",
+      "insurance": "Insurance & health",
+      "net": "Net pay",
+      "cost": "Employer cost"
+    },
+    "grid": {
+      "label": "Employees this month",
+      "empty": "Nobody is employed this month",
+      "employee": "Employee",
+      "kind": "Type",
+      "hours": "Hours",
+      "bonus": "Bonus",
+      "absence": "Unpaid days",
+      "advance": "Advance",
+      "gross": "Gross",
+      "tax": "Income tax",
+      "insurance": "Insurance",
+      "net": "Net",
+      "cost": "Employer cost"
+    },
+    "confirm": {
+      "title": "Approve {month}?",
+      "body": "Payslips become final and locked. You can still reopen the month later for corrections.",
+      "action": "Approve and lock",
+      "form102": "Form 102 total to pay"
+    },
+    "close": "Close month",
+    "closedTag": "Month closed",
+    "production": {
+      "label": "Payslips produced",
+      "count": "{produced}/{expected}",
+      "action": "Produce payslips",
+      "done": "All payslips sent"
+    },
+    "fields": {
+      "hours": "Hours",
+      "sick": "Sick days",
+      "vacation": "Vacation days",
+      "absence": "Absence days",
+      "travel": "Daily travel"
+    },
+    "entry": {
+      "copy": "Copy from {month}",
+      "copyTitle": "Copy the data from {month}?",
+      "copyBody": "Data entered for {month} will be replaced. Sick and vacation days are not copied.",
+      "copyAction": "Copy",
+      "apply": "Update several employees",
+      "applyAction": "Update",
+      "component": "Component",
+      "amount": "Amount"
+    },
+    "openMonths": "Open months",
+    "alertsAnd": " and ",
+    "alertsIn": " in {people, plural, one {# employee} other {# employees}}"
+  },
+  "payslip": {
+    "earnings": "Earnings",
+    "benefits": "Benefits in kind (taxed, not paid)",
+    "deductions": "Deductions",
+    "incomeTax": "Income tax",
+    "nationalInsurance": "National Insurance",
+    "healthTax": "Health tax",
+    "pensionEmployee": "Pension (employee)",
+    "studyFundEmployee": "Study fund (employee)",
+    "partiallyApplied": "partly carried forward",
+    "net": "Net pay",
+    "taxDetails": "How the tax was reached",
+    "taxable": "Taxable income",
+    "bracketTax": "Tax by brackets",
+    "creditPoints": "Credit points ({points})",
+    "pensionCredit": "Pension credit",
+    "employerSide": "Employer side",
+    "employerInsurance": "National Insurance (employer)",
+    "pensionEmployer": "Pension (employer)",
+    "severanceEmployer": "Severance fund",
+    "studyFundEmployer": "Study fund (employer)",
+    "employerCost": "Total employer cost",
+    "balances": "Balances after this month",
+    "vacationBalance": "Vacation",
+    "sickBalance": "Sick leave",
+    "unverified": "{count} law values unverified",
+    "categories": {
+      "standard": "Standard insurance rates",
+      "under_18": "Under-18 rates",
+      "retirement_age": "Retirement-age rates"
+    }
+  },
+  "explain": {
+    "subtitle": "How this number was calculated",
+    "result": "Result",
+    "formula": "Formula",
+    "inputsTitle": "Inputs",
+    "sources": "Law in force for this month",
+    "inputs": {
+      "monthly_salary": "Monthly salary",
+      "employed_fraction": "Share of the month employed",
+      "work_days": "Working days in the month",
+      "days": "Days",
+      "regular_hours": "Regular hours",
+      "hourly_rate": "Hourly rate",
+      "hours": "Hours",
+      "hour_value": "Value of one hour",
+      "premium": "Premium %",
+      "daily_cost": "Actual daily cost",
+      "daily_cap": "Daily cap",
+      "attendance_days": "Days attended",
+      "annual_days": "Days per year",
+      "day_value": "Value of a day",
+      "share": "Share paid now",
+      "list_price": "Car list price",
+      "rate": "Rate %",
+      "reduction": "Reduction",
+      "value": "Value",
+      "base": "Salary base",
+      "employee_rate": "Employee rate %",
+      "employer_rate": "Employer rate %",
+      "employer_deposit": "Employer deposit",
+      "severance_deposit": "Severance deposit",
+      "exempt": "Tax-exempt part",
+      "taxable": "Taxable income",
+      "bracket_tax": "Tax by brackets",
+      "surtax": "Surtax",
+      "credit_points": "Credit points",
+      "point_value": "Value of a point",
+      "pension_credit": "Pension credit",
+      "months": "Months so far",
+      "ytd_income": "Income so far this year",
+      "ytd_credits": "Credits so far",
+      "ytd_withheld": "Tax already withheld",
+      "insurable": "Insurable income",
+      "reduced_part": "Part at the reduced rate",
+      "full_part": "Part at the full rate",
+      "gross_cash": "Gross pay",
+      "income_tax": "Income tax",
+      "insurance": "Insurance & health",
+      "employee_contributions": "Employee contributions",
+      "employer_insurance": "Employer insurance",
+      "employer_contributions": "Employer contributions",
+      "service_year": "Year of service",
+      "sick_days": "Sick days",
+      "paid_share": "Paid days (weighted)",
+      "daily_wage": "Daily wage",
+      "days_used": "Days used",
+      "holiday_days": "Holidays",
+      "prior_three_months_gross": "Gross of the last 3 months",
+      "reserve_days": "Reserve days"
+    }
+  },
+  "flags": {
+    "BELOW_MINIMUM_WAGE": {
+      "title": "Below minimum wage",
+      "hint": "The full-time equivalent pay is under the legal minimum. Raise the salary or rate."
+    },
+    "PENSION_MISSING": {
+      "title": "Pension fund missing",
+      "hint": "The employee is past the mandatory pension waiting period. Add a pension fund in their profile."
+    },
+    "NO_CREDIT_POINTS": {
+      "title": "No credit points",
+      "hint": "A main employer usually has a Form 101 with credit points. Check the employee's tax details."
+    },
+    "OVERTIME_SPIKE": {
+      "title": "Unusual overtime",
+      "hint": "Overtime is far above the last months. Make sure the hours are right."
+    },
+    "INSURANCE_CEILING": {
+      "title": "Above the insurance ceiling",
+      "hint": "Income above the National Insurance ceiling isn't insured. Nothing to fix."
+    },
+    "NEGATIVE_NET": {
+      "title": "Negative net pay",
+      "hint": "Deductions exceed pay. Reduce deductions or check the inputs."
+    },
+    "DEDUCTIONS_NOT_APPLIED": {
+      "title": "Deductions didn't fit",
+      "hint": "Part of the deductions was larger than net pay and will carry forward."
+    },
+    "TAX_REFUND": {
+      "title": "Tax refund this month",
+      "hint": "The cumulative method is returning over-withheld tax."
+    },
+    "VACATION_OVERDRAWN": {
+      "title": "Vacation balance negative",
+      "hint": "More vacation was used than accrued. Check the days entered."
+    },
+    "OTHER": {
+      "title": "Check this employee",
+      "hint": "The engine flagged something unusual."
+    },
+    "count": {
+      "error": "{count, plural, one {# error} other {# errors}}",
+      "warning": "{count, plural, one {# warning} other {# warnings}}",
+      "info": "{count, plural, one {# flag} other {# flags}}"
+    }
+  },
+  "rules": {
+    "verified": "Verified",
+    "unverified": "Awaiting verification",
+    "openEnded": "until changed",
+    "names": {
+      "income_tax-brackets": "Income tax brackets",
+      "income_tax-surtax": "Surtax on high income",
+      "income_tax-credit_point_value": "Value of a credit point",
+      "income_tax-credit_points": "Credit points (Form 101)",
+      "income_tax-secondary_job": "Secondary job withholding",
+      "income_tax-pension_credit": "Pension tax credit (s.45A)",
+      "national_insurance-thresholds": "National Insurance thresholds",
+      "national_insurance-rates": "National Insurance and health rates",
+      "national_insurance-ages": "Insurance age categories",
+      "pension-mandatory": "Mandatory pension",
+      "pension-employer_exemption": "Tax-exempt employer deposits",
+      "pension-study_fund": "Study fund exemption",
+      "labor-minimum_wage": "Minimum wage",
+      "labor-hours": "Working hours and overtime",
+      "labor-travel": "Travel expenses",
+      "labor-recuperation": "Recuperation pay",
+      "labor-vacation": "Annual vacation",
+      "labor-sick_leave": "Sick pay",
+      "labor-holidays": "Holiday pay",
+      "labor-reserve_duty": "Reserve duty",
+      "benefits-car": "Company car benefit",
+      "benefits-phone": "Mobile phone benefit",
+      "termination-severance": "Severance pay",
+      "termination-notice": "Notice period",
+      "validation-thresholds": "Anomaly thresholds",
+      "components-catalog": "Pay component catalog",
+      "calendar-holidays": "Public holidays"
+    }
+  },
+  "simulator": {
+    "eyebrow": "No data is saved",
+    "title": "Payslip simulator",
+    "subtitle": "Try any salary and situation. The real engine calculates the payslip as you type.",
+    "reset": "Reset",
+    "invalid": "The engine can't calculate this yet",
+    "payslip": "Payslip",
+    "payslipHint": "Click any number to see how it was calculated",
+    "addChild": "Add a child",
+    "removeChild": "Remove",
+    "sections": {
+      "pay": "Pay",
+      "person": "Employee",
+      "extras": "Funds & benefits"
+    },
+    "fields": {
+      "salary": "Monthly salary",
+      "rate": "Hourly rate",
+      "hours": "Hours this month",
+      "hoursHint": "Spread evenly over working days",
+      "jobFraction": "Position",
+      "period": "Pay month",
+      "bonus": "Bonus",
+      "gender": "Gender",
+      "birthDate": "Date of birth",
+      "startDate": "Start date",
+      "resident": "Israeli resident",
+      "mainEmployer": "Main employer (credit points apply here)",
+      "children": "Children",
+      "childBirth": "Child's date of birth",
+      "pension": "Pension fund",
+      "studyFund": "Study fund",
+      "phone": "Company mobile phone",
+      "travel": "Travel cost per day",
+      "carPrice": "Company car list price",
+      "carType": "Car type"
+    },
+    "gender": {
+      "female": "Woman",
+      "male": "Man"
+    },
+    "car": {
+      "fuel": "Fuel",
+      "hybrid": "Hybrid",
+      "plugIn": "Plug-in",
+      "electric": "Electric"
+    }
+  },
+  "employees": {
+    "title": "Employees",
+    "search": "Search by name, ID, department…",
+    "empty": "No one matches",
+    "pensionNo": "No pension",
+    "stats": {
+      "active": "Active employees",
+      "inactive": "Inactive employees",
+      "pension": "Pension & severance",
+      "insurance": "National insurance",
+      "health": "Health insurance"
+    },
+    "filters": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "columns": {
+      "name": "Name",
+      "nationalId": "ID number",
+      "department": "Department",
+      "position": "Position",
+      "kind": "Type",
+      "pay": "Salary / rate",
+      "start": "Started",
+      "status": "Status"
+    },
+    "leftOn": "Left {date}",
+    "metrics": {
+      "cost": "Employer cost",
+      "net": "Net pay",
+      "gross": "Gross pay",
+      "tax": "Income tax",
+      "pension": "Pension & severance",
+      "insurance": "National & health insurance"
+    },
+    "charts": {
+      "shareTitle": "Each employee's share",
+      "metric": "Measure",
+      "barsTitle": "Pay components by employee",
+      "barsSubtitle": "Additions vs. deductions",
+      "adds": "Additions",
+      "deducts": "Deductions"
+    },
+    "add": {
+      "action": "Add employee",
+      "save": "Add",
+      "badId": "This ID number is not valid",
+      "required": "Required"
+    }
+  },
+  "profile": {
+    "notFound": "This employee doesn't exist",
+    "ended": "Employment ended",
+    "active": "Active",
+    "tabsLabel": "Employee sections",
+    "tabs": {
+      "details": "Details",
+      "history": "History",
+      "terms": "Employment terms"
+    },
+    "unsaved": "You have unsaved changes",
+    "discard": "Discard",
+    "saveFailed": "Couldn't save",
+    "sections": {
+      "personal": "Personal details",
+      "employment": "Employment",
+      "contact": "Contact & address",
+      "spouse": "Spouse"
+    },
+    "fields": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "nationalId": "ID number",
+      "birthDate": "Date of birth",
+      "gender": "Gender",
+      "email": "Email",
+      "department": "Department",
+      "position": "Position",
+      "kind": "Pay type",
+      "salary": "Monthly salary",
+      "rate": "Hourly rate",
+      "jobFraction": "Position fraction",
+      "workWeek": "Work week",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "maritalStatus": "Marital status",
+      "healthFund": "Health fund",
+      "kibbutz": "Kibbutz or cooperative member",
+      "phone": "Phone",
+      "mobile": "Mobile",
+      "street": "Street",
+      "houseNumber": "House number",
+      "city": "City",
+      "zip": "Postal code",
+      "spouseIncome": "Spouse income",
+      "incomeType": "Income type from this employer",
+      "immigrationDate": "Immigration date"
+    },
+    "workWeek": {
+      "five": "5 days (Sun–Thu)",
+      "six": "6 days (Sun–Fri)"
+    },
+    "tax": {
+      "status": "Tax status",
+      "noChildren": "No children listed",
+      "claims": "Additional credit points",
+      "noClaims": "No additional claims",
+      "points": "{points} points",
+      "fixedRate": "Fixed withholding rate {rate}%",
+      "coordination": "Tax coordination certificate",
+      "otherIncome": "Other income"
+    },
+    "history": {
+      "emptyTitle": "No approved payslips yet",
+      "emptyBody": "Payslips appear here once a month is approved.",
+      "chart": "Net pay by month",
+      "table": "Payslip history",
+      "month": "Month",
+      "payslipFor": "Payslip — {month}"
+    },
+    "marital": {
+      "single": "Single",
+      "married": "Married",
+      "divorced": "Divorced",
+      "widowed": "Widowed",
+      "separated": "Separated"
+    },
+    "healthFunds": {
+      "clalit": "Clalit",
+      "maccabi": "Maccabi",
+      "meuhedet": "Meuhedet",
+      "leumit": "Leumit",
+      "none": "None"
+    },
+    "spouseIncome": {
+      "none": "No income",
+      "work": "Work or business",
+      "other": "Other income"
+    },
+    "incomeTypes": {
+      "monthly": "Monthly salary",
+      "additional": "Additional salary",
+      "partial": "Partial salary",
+      "daily": "Daily wage",
+      "pension": "Pension",
+      "stipend": "Stipend"
+    },
+    "standing": {
+      "title": "Fixed components",
+      "add": "Add component",
+      "empty": "No fixed components",
+      "from": "From",
+      "to": "Until",
+      "remove": "Remove"
+    },
+    "openMonth": "Open {month} payroll",
+    "facts": {
+      "number": "Employee no.",
+      "seniority": "Seniority",
+      "seniorityValue": "{years} y, {months} m"
+    }
+  },
+  "exceptions": {
+    "title": "Exceptions",
+    "subtitle": "Everything at {company} that needs a look before approval.",
+    "backToPayroll": "Back to payroll",
+    "fix": "Fix",
+    "emptyTitle": "Nothing to fix",
+    "emptyBody": "No issues of this kind this month.",
+    "filters": {
+      "all": "All",
+      "error": "Errors",
+      "warning": "Warnings",
+      "info": "Info"
+    },
+    "legend": {
+      "title": "What the colors mean",
+      "error": "Errors block approval until fixed",
+      "warning": "Warnings deserve a look but don't block",
+      "info": "Information, nothing to do"
+    },
+    "trust": {
+      "title": "Law values awaiting verification",
+      "body": "{count} law values used this month are not yet confirmed against an official source."
+    }
+  },
+  "rulesCenter": {
+    "title": "Law & rules",
+    "subtitle": "Every number the engine uses, with its legal source, the dates it applies and whether it's verified.",
+    "coveredTitle": "The law is loaded for every month",
+    "coveredBody": "Rules cover every month from {first} to {last}.",
+    "gapsTitle": "Some months have no law loaded",
+    "gapsBody": "Missing for: {months}",
+    "search": "Search rules or sources…",
+    "empty": "No rules match",
+    "inForce": "In force today",
+    "value": "Value",
+    "stats": {
+      "rules": "Rules",
+      "versions": "Dated versions",
+      "unverified": "Awaiting verification",
+      "unverifiedHint": "Among the versions in force today"
+    },
+    "filters": {
+      "current": "In force",
+      "unverified": "Unverified",
+      "all": "All versions"
+    },
+    "columns": {
+      "rule": "Rule",
+      "from": "In force from",
+      "to": "Until",
+      "status": "Status",
+      "source": "Source"
+    }
+  },
+  "termination": {
+    "title": "End of employment",
+    "subtitle": "Final settlement: severance, Section 14, notice, vacation and recuperation — ready for Form 161.",
+    "calculate": "Calculate settlement",
+    "another": "Start another",
+    "steps": {
+      "employee": "Employee & date",
+      "details": "Arrangements",
+      "settlement": "Settlement"
+    },
+    "choose": {
+      "title": "Who is leaving, and when?",
+      "body": "Choose the employee and their last day of work.",
+      "employee": "Employee",
+      "placeholder": "Choose an employee",
+      "date": "Last day",
+      "summary": "Employed since {start}"
+    },
+    "details": {
+      "severance": "Severance",
+      "entitled": "Entitled to severance pay",
+      "section14": "Section 14 arrangement",
+      "section14Hint": "Pension deposits that replace severance pay",
+      "s14full": "Full (8.33%)",
+      "s14partial": "Partial",
+      "s14none": "None",
+      "s14rate": "Section 14 deposit rate",
+      "fund": "Severance fund balance",
+      "fundHint": "Deposits outside Section 14",
+      "notice": "Notice and balances",
+      "noticeRequired": "Notice period applies",
+      "noticeGiven": "Notice days already given",
+      "vacation": "Unused vacation days",
+      "vacationHint": "Filled from the latest payslip",
+      "recuperation": "Unpaid recuperation days"
+    },
+    "result": {
+      "title": "Settlement for {name}",
+      "subtitle": "Form 161 figures",
+      "years": "Years of service",
+      "entitlement": "Severance entitlement",
+      "covered": "Covered by Section 14 deposits",
+      "fund": "Paid from the severance fund",
+      "employerSeverance": "Severance paid by the employer",
+      "exempt": "Tax-exempt part",
+      "taxable": "Taxable part",
+      "notice": "Notice pay ({days} days)",
+      "vacation": "Vacation payout",
+      "recuperation": "Recuperation payout",
+      "total": "Employer pays now",
+      "howTitle": "How it was calculated",
+      "howBody": "The formulas the engine applied"
+    },
+    "trace": {
+      "severance": "Severance",
+      "notice": "Notice",
+      "vacation": "Vacation payout",
+      "recuperation": "Recuperation"
+    }
+  },
+  "reports": {
+    "form102": {
+      "file": "Deductions file",
+      "employees": "Employees",
+      "gross": "Total gross pay",
+      "insurable": "Insurable income",
+      "tax": "Income tax withheld",
+      "blEmployee": "National Insurance (employees)",
+      "health": "Health tax",
+      "blEmployer": "National Insurance (employer)",
+      "total": "Total to pay"
+    },
+    "annual": {
+      "months": "Months",
+      "withheld": "Tax withheld",
+      "due": "Tax due for the year",
+      "difference": "Difference"
+    },
+    "costs": {
+      "composition": "Where the employer cost goes",
+      "byDepartment": "Cost by department",
+      "net": "Net pay",
+      "tax": "Income tax",
+      "insurance": "National Insurance & health",
+      "funds": "Pension & funds",
+      "other": "Other",
+      "employerOnTop": "Employer cost on top"
+    },
+    "funds": {
+      "pensionBase": "Pension base",
+      "studyBase": "Study fund base"
+    },
+    "balances": {
+      "vacation": "Vacation balance",
+      "vacationAccrued": "Vacation earned this month",
+      "sick": "Sick balance",
+      "sickAccrued": "Sick days earned this month"
+    }
+  },
+  "corrections": {
+    "title": "Corrections",
+    "subtitle": "Change an approved month and see exactly what changes before approving again.",
+    "approvedTitle": "This month is approved",
+    "approvedBody": "Reopen it to make corrections. The approved payslips are kept for comparison.",
+    "openTitle": "Corrections in progress",
+    "openBody": "Edit the month in the payroll screen. Every difference from the approved version shows here.",
+    "editInPayroll": "Edit in payroll",
+    "netChange": "Change in net pay",
+    "taxChange": "Change in income tax",
+    "costChange": "Change in employer cost",
+    "changedLines": "What changed",
+    "noChanges": "No differences yet",
+    "noChangesBody": "Edit the month and differences will appear here.",
+    "noneTitle": "No corrections for this month",
+    "noneBody": "Choose an approved month on the side to correct it.",
+    "months": "Months"
+  },
+  "settings": {
+    "title": "Settings",
+    "company": {
+      "title": "Company",
+      "name": "Company name",
+      "file": "Deductions file number"
+    },
+    "policies": {
+      "title": "Payroll policies",
+      "taxMethod": "Tax withholding method",
+      "monthly": "Monthly",
+      "cumulative": "Cumulative",
+      "proration": "Partial months",
+      "workDays": "By working days",
+      "calendarDays": "By calendar days",
+      "recuperation": "Recuperation pay",
+      "inMonth": "Paid once, in month {month}",
+      "spread": "Spread monthly (1/12)"
+    },
+    "catalog": {
+      "title": "Pay components",
+      "subtitle": "{count} components. How each one is taxed and insured comes from here.",
+      "search": "Search components…",
+      "name": "Component",
+      "code": "Code",
+      "kind": "Kind",
+      "flags": "Counts toward",
+      "add": "Add component",
+      "inactive": "Inactive",
+      "active": "Active"
+    },
+    "kinds": {
+      "earning": "Earning",
+      "benefit": "Benefit in kind",
+      "deduction": "Deduction"
+    },
+    "flags": {
+      "taxable": "Income tax",
+      "insurable": "Insurance",
+      "pension_base": "Pension",
+      "study_fund_base": "Study fund",
+      "severance_base": "Severance"
+    }
+  },
+  "comingSoon": {
+    "migration": {
+      "title": "Switch in minutes",
+      "body": "Bring over employees, history and balances from your current payroll system, with every number checked.",
+      "points": {
+        "p1": "Import Form 106, Form 102 and legacy exports",
+        "p2": "Side-by-side audit of every imported figure",
+        "p3": "Gap detection for tax continuity and Section 14",
+        "p4": "Nothing goes live until you approve it"
+      }
+    },
+    "assistant": {
+      "title": "Ask your payroll anything",
+      "body": "Plain-language questions about costs, trends and payslips — answered from your data, with sources.",
+      "points": {
+        "p1": "\"Why did overtime cost more this month?\"",
+        "p2": "Answers cite the payslips they come from",
+        "p3": "Read-only: it never changes your data",
+        "p4": "Each company's data stays separate"
+      }
+    },
+    "portal": {
+      "title": "The employee app",
+      "body": "Payslips, balances and requests on every employee's phone.",
+      "points": {
+        "p1": "Interactive payslips with explanations",
+        "p2": "Digital Form 101 with signature",
+        "p3": "Clock-in and shift scheduling",
+        "p4": "Vacation and sick-leave balances in real time"
+      }
+    }
+  },
+  "breakdown": {
+    "employees": "Employees",
+    "components": "Components",
+    "total": "Total",
+    "empty": "Nothing selected"
+  },
+  "parts": {
+    "blEmployer": "Employer national insurance",
+    "pensionEmployer": "Employer pension",
+    "severance": "Severance",
+    "studyEmployer": "Employer study fund",
+    "incomeTax": "Income tax",
+    "blEmployee": "National insurance",
+    "health": "Health insurance",
+    "pensionEmployee": "Employee pension",
+    "studyEmployee": "Employee study fund",
+    "disabilityEmployee": "Disability insurance (employee)",
+    "disabilityEmployer": "Disability insurance (employer)",
+    "otherEmployee": "Other deposits (employee)",
+    "otherEmployer": "Other deposits (employer)"
+  },
+  "history": {
+    "taxYear": "Tax year {year}",
+    "changes": "Changes to employment terms",
+    "payslips": "Payslips",
+    "noChanges": "No changes recorded yet",
+    "change": {
+      "added": "Added",
+      "changed": "Changed",
+      "removed": "Removed"
+    },
+    "fields": {
+      "employment": "Employment",
+      "kind": "Pay type",
+      "monthly_salary": "Monthly salary",
+      "hourly_rate": "Hourly rate",
+      "job_fraction": "Job percentage",
+      "work_week": "Work week",
+      "start_date": "Start date",
+      "end_date": "End date",
+      "department": "Department",
+      "sub_department": "Sub-department",
+      "position": "Role",
+      "insurance_category": "Insurance category",
+      "standing": "Standing: {item}",
+      "fund": "Fund: {item}"
+    }
+  },
+  "table": {
+    "search": "Search this table",
+    "columns": "Columns",
+    "groupBy": "Group by",
+    "noGrouping": "No grouping",
+    "byDepartment": "By department",
+    "byPosition": "By role",
+    "export": "Export to Excel",
+    "empty": "No matching data"
+  },
+  "analysis": {
+    "forecast": "Year-end forecast",
+    "cause": "Cause",
+    "change": "Change",
+    "causes": {
+      "hires": "New employees",
+      "leavers": "Employees who left",
+      "salary": "Salary and hours",
+      "overtime": "Overtime",
+      "bonuses": "Bonuses and commissions",
+      "otherPay": "Other pay",
+      "employer": "Employer contributions"
+    },
+    "unusualTitle": "Unusual pay changes",
+    "owedTitle": "What the company owes",
+    "owedVacation": "Accrued vacation",
+    "owedEntitlement": "Severance entitlement",
+    "owedFunded": "Severance in funds",
+    "owedShortfall": "Severance shortfall"
+  },
+  "exports": {
+    "title": "Reports for export",
+    "groups": {
+      "monthly": "Monthly · {month}",
+      "halfYear": "Half-yearly",
+      "annual": "Annual · {year}",
+      "event": "When needed"
+    },
+    "due": "Due {date}",
+    "halfYear": "{first}–{last} {year}",
+    "taxYear": "Tax year {year}",
+    "print": "Print",
+    "summary": "Summary",
+    "details": "Details",
+    "emptyTitle": "No approved data for this report yet",
+    "monthsApproved": "{count} of {total} months approved",
+    "status": {
+      "ready": "Final",
+      "partial": "In progress",
+      "draft": "Draft · month not approved",
+      "empty": "No data",
+      "none": "On demand"
+    },
+    "fields": {
+      "employer": "Employer",
+      "recipient": "Sent to",
+      "period": "Period",
+      "due": "Due date",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "jobFraction": "Job %",
+      "category": "Insurance category",
+      "creditPoints": "Credit points",
+      "pensionCredit": "Pension credit"
+    },
+    "categories": {
+      "standard": "Standard",
+      "under_18": "Under 18",
+      "retirement_age": "Retirement age"
+    },
+    "form100": {
+      "joined": "Joined",
+      "left": "Left",
+      "joiners": "Joined this month",
+      "event": "Change",
+      "total": "Total insurance"
+    },
+    "funds": {
+      "employees": "Employees with deposits",
+      "total": "Total deposits"
+    },
+    "payslips": {
+      "sent": "Sent",
+      "produced": "Produced",
+      "notProduced": "Not produced",
+      "sentOf": "{sent} of {total} sent",
+      "expected": "Payslips due",
+      "producedCount": "Produced",
+      "sentCount": "Sent",
+      "netTotal": "Total net pay",
+      "state": "State",
+      "open": "Open payroll month"
+    },
+    "form161": {
+      "start": "New termination",
+      "none": "No employees left in {year}"
+    },
+    "wages": {
+      "average": "Average monthly gross",
+      "months": "Period",
+      "last": "Last {count} months"
+    },
+    "filings": {
+      "form102": {
+        "title": "Form 102",
+        "subtitle": "Monthly report of withholdings and National Insurance",
+        "recipient": "Tax Authority and Bituach Leumi"
+      },
+      "form100": {
+        "title": "Form 100",
+        "subtitle": "Detailed monthly report on each employee",
+        "recipient": "Bituach Leumi"
+      },
+      "funds": {
+        "title": "Pension and study fund deposits",
+        "subtitle": "Each employee's monthly deposits, by part",
+        "recipient": "Pension and study funds"
+      },
+      "payslips": {
+        "title": "Payslips",
+        "subtitle": "Every employee's payslip for the month",
+        "recipient": "Employees"
+      },
+      "bl126": {
+        "title": "Form 126 · half year",
+        "subtitle": "January to June, per employee",
+        "recipient": "Bituach Leumi"
+      },
+      "form126": {
+        "title": "Form 126",
+        "subtitle": "Annual report of salaries and withholdings",
+        "recipient": "Tax Authority"
+      },
+      "form106": {
+        "title": "Form 106",
+        "subtitle": "Annual pay and tax certificate for one employee",
+        "recipient": "The employee"
+      },
+      "form161": {
+        "title": "Form 161",
+        "subtitle": "Notice of retirement and severance, on termination",
+        "recipient": "Tax Authority"
+      },
+      "wages": {
+        "title": "Wage confirmation",
+        "subtitle": "Recent pay, for Bituach Leumi claims",
+        "recipient": "Bituach Leumi"
+      }
+    }
+  },
+  "roles": {
+    "admin": "Firm admin",
+    "lead": "Team lead",
+    "accountant": "Payroll accountant",
+    "viewer": "Read only"
+  },
+  "sections": {
+    "label": "Section",
+    "payments": "Payments",
+    "imputed": "Imputed income",
+    "deductions": "Voluntary deductions",
+    "funds": "Social funds",
+    "absences": "Absences",
+    "totals": {
+      "payments": "Gross pay",
+      "imputed": "Total imputed",
+      "deductions": "Total deducted",
+      "funds": "Total deposits",
+      "absences": "Total days"
+    }
+  },
+  "absences": {
+    "vacation": "Vacation",
+    "sick": "Sick leave",
+    "recuperation": "Recuperation",
+    "reserve": "Reserve duty",
+    "days": "days",
+    "previous": "Previous balance",
+    "adjustment": "One-time load",
+    "accrued": "Earned this month",
+    "used": "Used this month",
+    "balance": "Balance",
+    "reserveDays": "Reserve duty days",
+    "unpaid": "Unpaid absence days"
+  },
+  "monthEntry": {
+    "item": "Item",
+    "quantity": "Quantity",
+    "rate": "Rate",
+    "amount": "Amount",
+    "overridden": "Changed this month",
+    "standing": "Standing",
+    "remove": "Remove",
+    "hours": "Hours this month",
+    "travel": "Travel: daily cost",
+    "attendance": "Attendance days",
+    "addPayment": "Add payment",
+    "carPrice": "Company car list price",
+    "carType": "Car type",
+    "carTypes": {
+      "none": "Regular",
+      "electric": "Electric",
+      "plug_in_hybrid": "Plug-in hybrid",
+      "hybrid": "Hybrid"
+    },
+    "phone": "Company mobile phone",
+    "addImputed": "Add imputed item",
+    "addDeduction": "Add deduction"
+  },
+  "funds": {
+    "kinds": {
+      "pension": "Pension fund",
+      "managers_insurance": "Managers' insurance",
+      "provident": "Provident fund",
+      "study_fund": "Study fund"
+    },
+    "share": "{share}% of salary",
+    "rates": {
+      "employee_rate": "Employee {rate}%",
+      "employer_rate": "Employer {rate}%",
+      "severance_rate": "Severance {rate}%",
+      "disability_employee_rate": "Disability, employee {rate}%",
+      "disability_employer_rate": "Disability, employer {rate}%",
+      "other_employee_rate": "Other, employee {rate}%",
+      "other_employer_rate": "Other, employer {rate}%"
+    },
+    "statutory": "Statutory",
+    "none": "No funds",
+    "editTerms": "Edit in employment terms",
+    "unnamed": "New fund",
+    "remove": "Remove fund",
+    "add": "Add fund",
+    "ratesTitle": "Rates, % of salary",
+    "fields": {
+      "name": "Fund name",
+      "kind": "Fund type",
+      "code": "Fund code",
+      "member": "Member no.",
+      "branch": "Branch no.",
+      "group": "Group",
+      "amountsRef": "E.E. amounts",
+      "share": "Share of salary"
+    },
+    "rateNames": {
+      "employee_rate": "Employee",
+      "employer_rate": "Employer",
+      "severance_rate": "Severance",
+      "disability_employee_rate": "Disability, employee",
+      "disability_employer_rate": "Disability, employer",
+      "other_employee_rate": "Other, employee",
+      "other_employer_rate": "Other, employer"
+    }
+  },
+  "employeeMonth": {
+    "breakdown": "Breakdown",
+    "data": "All of this month's data",
+    "bySection": "By section",
+    "bySource": "By source",
+    "section": "Section",
+    "source": "Source",
+    "notThisMonth": "This employee is not in this month's payroll",
+    "backToMonth": "Back to the payroll month",
+    "openProfile": "Open profile",
+    "simulate": "Simulate changes",
+    "alerts": "Errors and warnings",
+    "entry": "This month's data",
+    "payslip": "Payslip so far"
+  },
+  "monthData": {
+    "typed": "Typed this month",
+    "standing": "Employment terms",
+    "calculated": "Calculated",
+    "statutory": "Statutory deductions"
+  },
+  "terms": {
+    "kind": "Pay type",
+    "salary": "Monthly salary",
+    "rate": "Hourly rate",
+    "jobFraction": "Job percentage",
+    "workWeek": "Work week",
+    "days": "{count} days",
+    "start": "Start date",
+    "end": "End date",
+    "subDepartment": "Sub-department",
+    "insurance": "National Insurance category",
+    "insuranceAuto": "By age",
+    "pay": "Pay and placement",
+    "funds": "Provident funds",
+    "standing": "Standing amounts"
+  },
+  "simulation": {
+    "fundsEmployee": "Fund deposits (employee)",
+    "title": "Simulation · {name}",
+    "unsaved": "Not saved",
+    "reset": "Start over",
+    "discard": "Discard and go back",
+    "save": "Save changes",
+    "tabs": {
+      "label": "What to change",
+      "terms": "Employment terms",
+      "month": "This month"
+    },
+    "employee": "Employee's payslip",
+    "month": "The whole month",
+    "now": "Now",
+    "after": "After",
+    "change": "Change"
+  },
+  "reportView": {
+    "total": "Total",
+    "empty": "No rows match",
+    "emptyPivot": "Drag fields into rows and values to build the pivot",
+    "yes": "Yes",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "aggregations": {
+      "sum": "Sum",
+      "avg": "Average",
+      "count": "Count",
+      "min": "Minimum",
+      "max": "Maximum"
+    },
+    "selection": {
+      "count": "Count",
+      "sum": "Sum",
+      "average": "Average",
+      "ratio": "Ratio"
+    },
+    "menu": {
+      "sortAsc": "Sort ascending",
+      "sortDesc": "Sort descending",
+      "sortNone": "No sort",
+      "freeze": "Freeze column",
+      "unfreeze": "Unfreeze column",
+      "hide": "Hide column",
+      "show": "Show column",
+      "filter": "Filter",
+      "format": "Filter and formatting",
+      "moveLeft": "Move left",
+      "moveRight": "Move right",
+      "moveStart": "Move to start",
+      "moveEnd": "Move to end",
+      "moveUp": "Move up",
+      "moveDown": "Move down"
+    },
+    "deviations": {
+      "title": "Comparison columns",
+      "add": "Add comparison",
+      "name": "Name",
+      "first": "First value",
+      "second": "Second value",
+      "diff": "Difference",
+      "percent": "Difference",
+      "remove": "Remove comparison"
+    },
+    "panel": {
+      "title": "Report settings",
+      "close": "Close",
+      "back": "Back",
+      "reset": "Reset",
+      "save": "Save layout",
+      "presets": "Saved layouts",
+      "columns": "Columns",
+      "search": "Search",
+      "fields": "Fields",
+      "remove": "Remove",
+      "settings": "Field settings",
+      "aggregation": "Calculation"
+    },
+    "zones": {
+      "rows": "Rows",
+      "columns": "Columns",
+      "values": "Values",
+      "dropHere": "Drag a field here",
+      "toRows": "Move to rows",
+      "toColumns": "Move to columns",
+      "toValues": "Move to values"
+    },
+    "filter": {
+      "title": "Show values",
+      "all": "Select all",
+      "none": "Clear all",
+      "clear": "Remove filter",
+      "empty": "(empty)"
+    },
+    "format": {
+      "title": "Conditional formatting",
+      "threshold": "Highlight when the value is",
+      "operator": "Choose a condition",
+      "value": "Value",
+      "to": "And",
+      "operators": {
+        "gt": "Greater than",
+        "gte": "Greater than or equal to",
+        "lt": "Less than",
+        "lte": "Less than or equal to",
+        "eq": "Equal to",
+        "between": "Between"
+      },
+      "stat": "Statistical highlight",
+      "stats": {
+        "none": "None",
+        "top10": "Top 10",
+        "top10pct": "Top 10%",
+        "bottom10": "Bottom 10",
+        "bottom10pct": "Bottom 10%",
+        "aboveAvg": "Above average",
+        "belowAvg": "Below average"
+      },
+      "duplicates": "Highlight repeated values",
+      "clear": "Remove formatting"
+    },
+    "presets": {
+      "empty": "No saved layouts yet",
+      "apply": "Apply",
+      "makeDefault": "Make default",
+      "isDefault": "Default",
+      "rename": "Rename",
+      "delete": "Delete",
+      "saveTitle": "Save layout",
+      "name": "Name",
+      "saveNew": "Save as new",
+      "override": "Update layout",
+      "renameTitle": "Rename layout",
+      "cancel": "Cancel",
+      "applied": "In use"
+    }
+  },
+  "dataHistory": {
+    "title": "Data history",
+    "back": "Back to reports",
+    "filtersOn": "{count, plural, one {# filter} other {# filters}}",
+    "clearFilters": "Clear filters",
+    "export": "Export to Excel",
+    "modes": {
+      "label": "View",
+      "table": "Table",
+      "pivot": "Pivot",
+      "analysis": "Analysis"
+    },
+    "reports": {
+      "components": {
+        "title": "Payroll components",
+        "section": "Payments",
+        "description": "Every pay item paid in cash, per employee and month"
+      },
+      "imputed": {
+        "title": "Imputed income",
+        "section": "Imputed income",
+        "description": "Benefits in kind added to taxable pay"
+      },
+      "deductions": {
+        "title": "Voluntary deductions",
+        "section": "Deductions",
+        "description": "Loans, advances, organization tax and other deductions not set by law"
+      },
+      "costing": {
+        "title": "Costing report",
+        "section": "Summary",
+        "description": "Each employee's full pay and cost, month by month"
+      },
+      "funds": {
+        "title": "Provident funds",
+        "section": "Social funds",
+        "description": "Deposits to each fund by part, with member and branch numbers"
+      },
+      "absences": {
+        "title": "Absences",
+        "section": "Absences",
+        "description": "Vacation, sick leave, recuperation and reserve duty balances"
+      }
+    },
+    "fields": {
+      "year": "Work year",
+      "employee_number": "Employee no.",
+      "employee_name": "Employee name",
+      "department": "Department",
+      "month": "Work month",
+      "quarter": "Quarter",
+      "half": "Half year",
+      "sub_department": "Sub-department",
+      "national_id": "ID number",
+      "company_name": "Company",
+      "code": "Component code",
+      "component_name": "Component",
+      "rate": "Rate",
+      "quantity": "Quantity",
+      "total": "Total",
+      "standing": "Standing",
+      "gross": "Gross",
+      "bl_employee": "NI employee",
+      "income_tax": "Income tax",
+      "funds_employee": "Pension + study fund, employee",
+      "voluntary_deductions": "Voluntary deductions",
+      "net": "Net to pay",
+      "bl_employer": "NI employer",
+      "funds_employer": "Pension + study fund, employer",
+      "severance_reserve": "Severance reserve",
+      "vacation_reserve": "Vacation reserve",
+      "recuperation_reserve": "Recuperation reserve",
+      "employer_cost": "Employer cost",
+      "bl_foreign_exemption": "NI exemption, foreign resident",
+      "organization_tax": "Organization tax",
+      "advance": "Advance",
+      "hours": "Hours",
+      "days": "Days",
+      "fund_code": "Fund code",
+      "fund_name": "Fund name",
+      "fund_kind": "Fund type",
+      "fund_salary": "Salary for fund",
+      "fund_employee": "Fund, employee",
+      "disability_employee": "Disability, employee",
+      "other_employee": "Other, employee",
+      "total_employee": "Total employee",
+      "fund_employer": "Fund, employer",
+      "disability_employer": "Disability, employer",
+      "other_employer": "Other, employer",
+      "severance": "Severance",
+      "total_employer": "Total employer",
+      "total_both": "Total employee and employer",
+      "member_number": "Member no.",
+      "branch": "Branch no.",
+      "work_days": "Work days",
+      "amounts_ref": "E.E. amounts",
+      "group": "Group",
+      "calendar_month": "Month",
+      "reserve_used": "Reserve duty – monthly usage",
+      "vacation": {
+        "code": "Vacation code",
+        "name": "Vacation type",
+        "year_opening": "Vacation – opening balance",
+        "adjustment": "Vacation – one-time load",
+        "previous": "Vacation – previous balance",
+        "latest": "Vacation – latest balance",
+        "accrued": "Vacation – monthly accrual",
+        "used": "Vacation – monthly usage",
+        "balance": "Vacation – monthly balance"
+      },
+      "sick": {
+        "code": "Sick leave code",
+        "name": "Sick leave type",
+        "year_opening": "Sick leave – opening balance",
+        "adjustment": "Sick leave – one-time load",
+        "previous": "Sick leave – previous balance",
+        "latest": "Sick leave – latest balance",
+        "accrued": "Sick leave – monthly accrual",
+        "used": "Sick leave – monthly usage",
+        "balance": "Sick leave – monthly balance"
+      },
+      "recuperation": {
+        "code": "Recuperation code",
+        "name": "Recuperation type",
+        "year_opening": "Recuperation – opening balance",
+        "adjustment": "Recuperation – one-time load",
+        "previous": "Recuperation – previous balance",
+        "latest": "Recuperation – latest balance",
+        "accrued": "Recuperation – monthly accrual",
+        "used": "Recuperation – monthly usage",
+        "balance": "Recuperation – monthly balance"
+      }
+    },
+    "analysis": {
+      "componentsTotal": "Total paid",
+      "imputedTotal": "Total imputed",
+      "deductionsTotal": "Total deducted",
+      "employees": "Employees",
+      "perEmployeeMonth": "Average per employee per month",
+      "items": "Components",
+      "byMonth": "By month",
+      "byItem": "By component",
+      "topEmployees": "Highest employees",
+      "byDepartment": "By department",
+      "onTop": "Employer cost above gross",
+      "reserves": "Reserves",
+      "costByMonth": "Where the cost goes, by month",
+      "reservesByMonth": "Reserves by month",
+      "funds": "Funds",
+      "depositsByMonth": "Deposits by month",
+      "byFund": "By fund",
+      "byFundKind": "By fund type",
+      "vacationOwed": "Vacation days owed",
+      "usedByMonth": "Days used by month",
+      "topVacation": "Largest vacation balances",
+      "topSick": "Most sick days",
+      "vacationByDepartment": "Vacation days by department",
+      "other": "Other"
+    }
+  }
+}

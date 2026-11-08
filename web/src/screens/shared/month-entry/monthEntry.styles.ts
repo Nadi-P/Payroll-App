@@ -1,0 +1,22 @@
+export const monthEntryStyles = {
+  root: "flex flex-col gap-4",
+  fields: "grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3",
+  group: "flex flex-col gap-2",
+  groupHead: "flex items-center justify-between gap-2",
+  list: "flex flex-col divide-y divide-border overflow-hidden rounded-lg border border-border",
+  listHead:
+    "hidden grid-cols-[minmax(0,1fr)_6.5rem_6.5rem_8rem_2.25rem] items-center gap-2 bg-surface-2 px-3 py-2 text-[12px] font-medium text-muted md:grid",
+  row: "grid grid-cols-2 items-center gap-2 px-3 py-2 md:grid-cols-[minmax(0,1fr)_6.5rem_6.5rem_8rem_2.25rem]",
+  rowWide: "col-span-2 md:col-span-1",
+  standing: "grid grid-cols-2 items-center gap-2 bg-surface-2/50 px-3 py-2 md:grid-cols-[minmax(0,1fr)_6.5rem_6.5rem_8rem_2.25rem]",
+  standingName: "col-span-2 flex min-w-0 items-center gap-2 md:col-span-3",
+  end: "flex justify-end",
+  balances: "grid grid-cols-1 gap-3 md:grid-cols-3",
+  balance: "flex flex-col gap-3 rounded-xl border border-border bg-surface-2/40 p-4",
+  balanceHead: "flex items-center justify-between gap-2",
+  balanceRow: "flex items-center justify-between gap-3 text-[13px]",
+  fundList: "flex flex-col gap-2",
+  fund: "flex flex-wrap items-center justify-between gap-3 rounded-lg border border-border px-3 py-2.5",
+  fundName: "flex min-w-0 flex-col leading-tight",
+  fundRates: "flex flex-wrap items-center gap-1.5",
+};

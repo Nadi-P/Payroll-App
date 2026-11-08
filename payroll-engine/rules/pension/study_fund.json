@@ -1,0 +1,12 @@
+{
+  "rule_id": "pension.study_fund",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Income Tax Ordinance s.3(e): employer study-fund deposit exempt up to 7.5% of salary capped at 15,712/month",
+      "verified": false,
+      "value": {"employer_max_rate": 7.5, "salary_cap": 15712}
+    }
+  ]
+}

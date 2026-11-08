@@ -1,0 +1,12 @@
+{
+  "rule_id": "income_tax.secondary_job",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Income Tax (Deduction from Salary) Regulations: secondary employment without tax coordination withheld at the top marginal rate",
+      "verified": false,
+      "value": {"rate": 47}
+    }
+  ]
+}

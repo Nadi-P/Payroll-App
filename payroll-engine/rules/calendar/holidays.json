@@ -1,0 +1,180 @@
+{
+  "rule_id": "calendar.holidays",
+  "_comment": "Paid rest days by calendar. 'general' applies to every employee (e.g. election day); other keys are chosen per employee (holiday_calendar). Muslim, Christian and Druze calendars still to be added.",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "source": "Hebrew calendar 5785-5786; Independence Day moved to 1.5.2025. Cross-check: Bank of Israel holiday list",
+      "verified": false,
+      "value": {
+        "jewish": [
+          {
+            "date": "2025-04-13",
+            "he": "פסח א'",
+            "en": "Passover day 1"
+          },
+          {
+            "date": "2025-04-19",
+            "he": "שביעי של פסח",
+            "en": "Passover day 7"
+          },
+          {
+            "date": "2025-05-01",
+            "he": "יום העצמאות",
+            "en": "Independence Day"
+          },
+          {
+            "date": "2025-06-02",
+            "he": "שבועות",
+            "en": "Shavuot"
+          },
+          {
+            "date": "2025-09-23",
+            "he": "ראש השנה א'",
+            "en": "Rosh Hashanah day 1"
+          },
+          {
+            "date": "2025-09-24",
+            "he": "ראש השנה ב'",
+            "en": "Rosh Hashanah day 2"
+          },
+          {
+            "date": "2025-10-02",
+            "he": "יום כיפור",
+            "en": "Yom Kippur"
+          },
+          {
+            "date": "2025-10-07",
+            "he": "סוכות",
+            "en": "Sukkot"
+          },
+          {
+            "date": "2025-10-14",
+            "he": "שמיני עצרת / שמחת תורה",
+            "en": "Shemini Atzeret / Simchat Torah"
+          }
+        ],
+        "general": []
+      }
+    },
+    {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "source": "Bank of Israel list of holidays 2026-2027 https://www.boi.org.il/media/c0lhii5f/list-of-holidays-affecting-bank-of-israel-services-in-2026-2027.pdf; Knesset election 27.10.2026 per Central Elections Committee (Elections Law: paid rest day)",
+      "verified": false,
+      "value": {
+        "jewish": [
+          {
+            "date": "2026-04-02",
+            "he": "פסח א'",
+            "en": "Passover day 1"
+          },
+          {
+            "date": "2026-04-08",
+            "he": "שביעי של פסח",
+            "en": "Passover day 7"
+          },
+          {
+            "date": "2026-04-22",
+            "he": "יום העצמאות",
+            "en": "Independence Day"
+          },
+          {
+            "date": "2026-05-22",
+            "he": "שבועות",
+            "en": "Shavuot"
+          },
+          {
+            "date": "2026-09-12",
+            "he": "ראש השנה א'",
+            "en": "Rosh Hashanah day 1"
+          },
+          {
+            "date": "2026-09-13",
+            "he": "ראש השנה ב'",
+            "en": "Rosh Hashanah day 2"
+          },
+          {
+            "date": "2026-09-21",
+            "he": "יום כיפור",
+            "en": "Yom Kippur"
+          },
+          {
+            "date": "2026-09-26",
+            "he": "סוכות",
+            "en": "Sukkot"
+          },
+          {
+            "date": "2026-10-03",
+            "he": "שמיני עצרת / שמחת תורה",
+            "en": "Shemini Atzeret / Simchat Torah"
+          }
+        ],
+        "general": [
+          {
+            "date": "2026-10-27",
+            "he": "יום הבחירות לכנסת",
+            "en": "Knesset election day"
+          }
+        ]
+      }
+    },
+    {
+      "effective_from": "2027-01-01",
+      "effective_to": "2027-12-31",
+      "source": "Bank of Israel list of holidays 2026-2027 https://www.boi.org.il/media/c0lhii5f/list-of-holidays-affecting-bank-of-israel-services-in-2026-2027.pdf",
+      "verified": false,
+      "value": {
+        "jewish": [
+          {
+            "date": "2027-04-22",
+            "he": "פסח א'",
+            "en": "Passover day 1"
+          },
+          {
+            "date": "2027-04-28",
+            "he": "שביעי של פסח",
+            "en": "Passover day 7"
+          },
+          {
+            "date": "2027-05-12",
+            "he": "יום העצמאות",
+            "en": "Independence Day"
+          },
+          {
+            "date": "2027-06-11",
+            "he": "שבועות",
+            "en": "Shavuot"
+          },
+          {
+            "date": "2027-10-02",
+            "he": "ראש השנה א'",
+            "en": "Rosh Hashanah day 1"
+          },
+          {
+            "date": "2027-10-03",
+            "he": "ראש השנה ב'",
+            "en": "Rosh Hashanah day 2"
+          },
+          {
+            "date": "2027-10-11",
+            "he": "יום כיפור",
+            "en": "Yom Kippur"
+          },
+          {
+            "date": "2027-10-16",
+            "he": "סוכות",
+            "en": "Sukkot"
+          },
+          {
+            "date": "2027-10-23",
+            "he": "שמיני עצרת / שמחת תורה",
+            "en": "Shemini Atzeret / Simchat Torah"
+          }
+        ],
+        "general": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+payroll-engine/
+  pyproject.toml
+  rules/
+    2025/ income_tax.json  bituach_leumi.json  health_tax.json  pension.json
+          credit_points.json  labor_law.json  minimums.json  ...
+    schema/  (JSON Schema for each rule file)
+  src/payroll_engine/
+    money.py            # Decimal wrapper, rounding policy
+    dates.py            # period helpers, work-days, Hebrew-law week (Sun-Thu/Fri)
+    models/             # frozen dataclasses: Employee, Period, PayInputs, Payslip, Trace
+    rules/              # loader, schema validation, RuleSet.at(date), versioning
+    pipeline.py         # ordered stages, composes the calculators
+    calculators/
+      earnings.py       # base pay, hourly, overtime, bonuses, benefits
+      allowances.py     # travel, recuperation, meals, car, phone
+      leave.py          # vacation, sick pay, holidays, accruals
+      pension.py        # employee/employer/severance, study fund
+      taxable_base.py   # tax-able vs BL-able vs exempt classification
+      income_tax.py     # brackets, credit points, surtax, cumulative method
+      bituach_leumi.py  # two-tier rate + ceiling
+      health_tax.py
+      net.py            # deductions, loans, advances, garnishments
+      employer_cost.py
+      severance.py      # Section 14, severance pay, pitzuim
+      annual.py         # annual reconciliation, Form 106/126 data
+    validators/         # missing pension mapping, overtime spikes, below-minimum
+  tests/
+    unit/  property/  golden/ (fixtures from real payslips, JSON)

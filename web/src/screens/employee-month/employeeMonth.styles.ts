@@ -1,0 +1,16 @@
+export const employeeMonthStyles = {
+  hero: "flex flex-wrap items-center gap-4 rounded-2xl border border-border bg-surface p-5 shadow-sm",
+  heroText: "flex min-w-0 flex-1 flex-col gap-1",
+  name: "w-fit text-[22px] font-semibold leading-tight tracking-tight text-text hover:text-accent-ink hover:underline underline-offset-4",
+  avatarLink: "shrink-0 rounded-full outline-none ring-offset-2 ring-offset-surface transition hover:ring-2 hover:ring-accent focus-visible:ring-2 focus-visible:ring-ring",
+  heroMeta: "flex flex-wrap items-center gap-2",
+  heroActions: "flex flex-wrap items-center gap-2",
+  back: "print:hidden",
+  layout: "grid items-start gap-4 xl:grid-cols-[minmax(0,1fr)_400px]",
+  main: "flex min-w-0 flex-col gap-4",
+  side: "flex flex-col gap-4 xl:sticky xl:top-6",
+  issues: "flex flex-col divide-y divide-border overflow-hidden rounded-lg border border-border",
+  saveBar: "flex flex-wrap items-center gap-2",
+  chartFilters: "flex flex-wrap items-center gap-2",
+  chartSelect: "w-40",
+};

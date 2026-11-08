@@ -1,0 +1,26 @@
+{
+  "rule_id": "labor.minimum_wage",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-03-31",
+      "source": "Minimum Wage Law 1987, value in force until 31.3.2025",
+      "verified": false,
+      "value": {"monthly": 5880.02, "hourly": 32.30}
+    },
+    {
+      "effective_from": "2025-04-01",
+      "effective_to": "2026-03-31",
+      "source": "Minimum Wage Law 1987, update of 1.4.2025",
+      "verified": false,
+      "value": {"monthly": 6247.67, "hourly": 34.32}
+    },
+    {
+      "effective_from": "2026-04-01",
+      "effective_to": null,
+      "source": "Minimum Wage Law 1987, update of 1.4.2026 (reported by Goldfarb Gross Seligman, confirm against Ministry of Labor notice)",
+      "verified": false,
+      "value": {"monthly": 6443.85, "hourly": 35.40}
+    }
+  ]
+}

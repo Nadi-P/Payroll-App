@@ -1,0 +1,22 @@
+{
+  "employee": {
+    "employee_id": "EXAMPLE-1",
+    "birth_date": "1988-03-14",
+    "gender": "female",
+    "start_date": "2021-09-01",
+    "kind": "monthly",
+    "monthly_salary": "14500",
+    "work_week": 5,
+    "tax": {
+      "children": [{"birth_date": "2019-07-02"}, {"birth_date": "2023-02-11"}]
+    },
+    "pension": {},
+    "study_fund": {"employee_rate": "2.5", "employer_rate": "7.5"}
+  },
+  "period": {"year": 2026, "month": 3},
+  "settings": {"tax_method": "monthly", "recuperation_month": null},
+  "lines": [{"code": "BONUS", "amount": "1500"}],
+  "allowances": {"travel_daily_cost": "18.50", "attendance_days": 21, "mobile_phone": true},
+  "leave": {"vacation_opening": "6.5", "vacation_days_used": "1", "sick_opening": "20"},
+  "deductions": [{"code": "UNION_FEE", "amount": "45", "priority": 10}]
+}

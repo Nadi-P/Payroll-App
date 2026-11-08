@@ -1,0 +1,44 @@
+{
+  "rule_id": "components.catalog",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Starter catalog; flags follow common Israeli payroll practice and must be reconciled with the Shiklulit component list",
+      "verified": false,
+      "value": {
+        "BASE_SALARY":       {"he": "שכר בסיס",            "en": "Base salary", "ar": "الراتب الأساسي", "ru": "Базовая зарплата",            "kind": "earning", "flags": ["taxable", "insurable", "pension_base", "study_fund_base", "severance_base"]},
+        "HOURLY_PAY":        {"he": "שכר שעות",            "en": "Hourly pay", "ar": "أجر الساعات", "ru": "Почасовая оплата",             "kind": "earning", "flags": ["taxable", "insurable", "pension_base", "study_fund_base", "severance_base"]},
+        "UNPAID_ABSENCE":    {"he": "היעדרות ללא תשלום",   "en": "Unpaid absence", "ar": "غياب بدون أجر", "ru": "Неоплачиваемое отсутствие",         "kind": "earning", "flags": ["taxable", "insurable", "pension_base", "study_fund_base", "severance_base"]},
+        "OVERTIME_125":      {"he": "שעות נוספות 125%",    "en": "Overtime 125%", "ar": "ساعات إضافية 125%", "ru": "Сверхурочные 125%",          "kind": "earning", "flags": ["taxable", "insurable"]},
+        "OVERTIME_150":      {"he": "שעות נוספות 150%",    "en": "Overtime 150%", "ar": "ساعات إضافية 150%", "ru": "Сверхурочные 150%",          "kind": "earning", "flags": ["taxable", "insurable"]},
+        "REST_DAY_150":      {"he": "עבודה ביום מנוחה 150%", "en": "Rest-day work 150%", "ar": "عمل في يوم الراحة 150%", "ru": "Работа в день отдыха 150%",   "kind": "earning", "flags": ["taxable", "insurable"]},
+        "REST_DAY_175":      {"he": "שעות נוספות במנוחה 175%", "en": "Rest-day overtime 175%", "ar": "ساعات إضافية في يوم الراحة 175%", "ru": "Сверхурочные в день отдыха 175%", "kind": "earning", "flags": ["taxable", "insurable"]},
+        "REST_DAY_200":      {"he": "שעות נוספות במנוחה 200%", "en": "Rest-day overtime 200%", "ar": "ساعات إضافية في يوم الراحة 200%", "ru": "Сверхурочные в день отдыха 200%", "kind": "earning", "flags": ["taxable", "insurable"]},
+        "GLOBAL_OVERTIME":   {"he": "שעות נוספות גלובליות", "en": "Global overtime", "ar": "ساعات إضافية إجمالية", "ru": "Глобальные сверхурочные",       "kind": "earning", "flags": ["taxable", "insurable"]},
+        "BONUS":             {"he": "בונוס",               "en": "Bonus", "ar": "مكافأة", "ru": "Премия",                  "kind": "earning", "flags": ["taxable", "insurable"]},
+        "COMMISSION":        {"he": "עמלות",               "en": "Commission", "ar": "عمولات", "ru": "Комиссионные",             "kind": "earning", "flags": ["taxable", "insurable", "pension_base", "severance_base"]},
+        "TRAVEL":            {"he": "דמי נסיעה",           "en": "Travel expenses", "ar": "بدل سفر", "ru": "Транспортные расходы",        "kind": "earning", "flags": ["taxable", "insurable"]},
+        "RECUPERATION":      {"he": "דמי הבראה",           "en": "Recuperation pay", "ar": "بدل استجمام", "ru": "Оздоровительные (havraa)",       "kind": "earning", "flags": ["taxable", "insurable"]},
+        "VACATION_PAY":      {"he": "דמי חופשה",           "en": "Vacation pay", "ar": "أجر الإجازة", "ru": "Отпускные",           "kind": "earning", "flags": ["taxable", "insurable", "pension_base", "study_fund_base", "severance_base"]},
+        "SICK_PAY":          {"he": "דמי מחלה",            "en": "Sick pay", "ar": "أجر المرض", "ru": "Больничные",               "kind": "earning", "flags": ["taxable", "insurable", "pension_base", "study_fund_base", "severance_base"]},
+        "SICK_DEDUCTION":    {"he": "ניכוי ימי מחלה",      "en": "Sick-day deduction", "ar": "خصم أيام المرض", "ru": "Вычет за дни болезни",     "kind": "earning", "flags": ["taxable", "insurable", "pension_base", "study_fund_base", "severance_base"]},
+        "HOLIDAY_PAY":       {"he": "דמי חגים",            "en": "Holiday pay", "ar": "أجر الأعياد", "ru": "Оплата праздников",            "kind": "earning", "flags": ["taxable", "insurable", "pension_base", "study_fund_base", "severance_base"]},
+        "RESERVE_DUTY_PAY":  {"he": "תגמולי מילואים",      "en": "Reserve duty pay", "ar": "تعويض خدمة الاحتياط", "ru": "Оплата резервистской службы",       "kind": "earning", "flags": ["taxable", "insurable", "pension_base", "study_fund_base", "severance_base"]},
+        "MEAL_ALLOWANCE":    {"he": "אש\"ל",               "en": "Meal allowance", "ar": "بدل وجبات", "ru": "Надбавка на питание",         "kind": "earning", "flags": ["taxable", "insurable"]},
+        "CAR_BENEFIT":       {"he": "שווי רכב",            "en": "Car benefit", "ar": "قيمة السيارة", "ru": "Стоимость автомобиля",            "kind": "benefit", "flags": ["taxable", "insurable"]},
+        "PHONE_BENEFIT":     {"he": "שווי טלפון",          "en": "Phone benefit", "ar": "قيمة الهاتف", "ru": "Стоимость телефона",          "kind": "benefit", "flags": ["taxable", "insurable"]},
+        "MEAL_BENEFIT":      {"he": "שווי ארוחות",         "en": "Meal benefit", "ar": "قيمة الوجبات", "ru": "Стоимость питания",           "kind": "benefit", "flags": ["taxable", "insurable"]},
+        "GIFT_BENEFIT":      {"he": "שווי מתנה",           "en": "Gift benefit", "ar": "قيمة الهدية", "ru": "Стоимость подарка",           "kind": "benefit", "flags": ["taxable", "insurable"]},
+        "PENSION_IMPUTED":   {"he": "זקיפת הפרשות מעסיק לתגמולים", "en": "Imputed employer pension", "ar": "احتساب مساهمات صاحب العمل للتقاعد", "ru": "Начисление пенсионных взносов работодателя", "kind": "benefit", "flags": ["taxable", "insurable"]},
+        "SEVERANCE_IMPUTED": {"he": "זקיפת הפרשות מעסיק לפיצויים", "en": "Imputed employer severance", "ar": "احتساب مساهمات صاحب العمل للتعويضات", "ru": "Начисление взносов работодателя на выходное пособие", "kind": "benefit", "flags": ["taxable", "insurable"]},
+        "STUDY_FUND_IMPUTED":{"he": "זקיפת קרן השתלמות",   "en": "Imputed study fund", "ar": "احتساب صندوق الاستكمال", "ru": "Начисление фонда повышения квалификации",     "kind": "benefit", "flags": ["taxable", "insurable"]},
+        "UNION_FEE":         {"he": "דמי ועד",             "en": "Union fee", "ar": "رسوم اللجنة", "ru": "Профсоюзный взнос",              "kind": "deduction", "flags": []},
+        "LOAN_REPAYMENT":    {"he": "החזר הלוואה",         "en": "Loan repayment", "ar": "سداد قرض", "ru": "Погашение займа",         "kind": "deduction", "flags": []},
+        "SALARY_ADVANCE":    {"he": "מקדמה",               "en": "Salary advance", "ar": "سلفة", "ru": "Аванс",         "kind": "deduction", "flags": []},
+        "GARNISHMENT":       {"he": "עיקול",               "en": "Garnishment", "ar": "حجز", "ru": "Арест на зарплату",            "kind": "deduction", "flags": []},
+        "MEAL_DEDUCTION":    {"he": "ניכוי ארוחות",        "en": "Meal deduction", "ar": "خصم الوجبات", "ru": "Вычет за питание",         "kind": "deduction", "flags": []}
+      }
+    }
+  ]
+}

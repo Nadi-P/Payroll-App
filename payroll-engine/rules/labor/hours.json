@@ -1,0 +1,19 @@
+{
+  "rule_id": "labor.hours",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Hours of Work and Rest Law 1951 and the 2018 extension order reducing the work week to 42 hours; monthly divisor 182",
+      "verified": false,
+      "value": {
+        "weekly_limit": 42,
+        "daily_regular": {"5": 8.6, "6": 8},
+        "night_daily_regular": 7,
+        "first_overtime_hours": 2,
+        "monthly_hours_divisor": 182,
+        "rates": {"overtime_first": 125, "overtime_after": 150, "rest_day": 150, "rest_overtime_first": 175, "rest_overtime_after": 200}
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "rule_id": "income_tax.brackets",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "source": "Income Tax Ordinance s.121; 2025 brackets frozen at 2024 values. Summary: https://www.kolzchut.org.il/he/מדרגות_מס_הכנסה - confirm against Israel Tax Authority publication",
+      "verified": false,
+      "value": {"monthly": [
+        {"up_to": 7010, "rate": 10},
+        {"up_to": 10060, "rate": 14},
+        {"up_to": 16150, "rate": 20},
+        {"up_to": 22440, "rate": 31},
+        {"up_to": 46690, "rate": 35},
+        {"up_to": null, "rate": 47}
+      ]}
+    },
+    {
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "source": "Income Tax Ordinance s.121 as amended by the Economic Efficiency Law (approved 30.3.2026, retroactive to 1.1.2026). Summary: https://www.kolzchut.org.il/he/מדרגות_מס_הכנסה - confirm against Israel Tax Authority publication",
+      "verified": false,
+      "value": {"monthly": [
+        {"up_to": 7010, "rate": 10},
+        {"up_to": 10060, "rate": 14},
+        {"up_to": 19000, "rate": 20},
+        {"up_to": 25100, "rate": 31},
+        {"up_to": 46690, "rate": 35},
+        {"up_to": null, "rate": 47}
+      ]}
+    }
+  ]
+}

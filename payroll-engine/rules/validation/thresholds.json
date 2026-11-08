@@ -1,0 +1,12 @@
+{
+  "rule_id": "validation.thresholds",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Product policy (not law): anomaly detection thresholds",
+      "verified": true,
+      "value": {"overtime_spike_multiplier": 2, "overtime_spike_min_amount": 500}
+    }
+  ]
+}

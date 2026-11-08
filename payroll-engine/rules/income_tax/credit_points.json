@@ -1,0 +1,27 @@
+{
+  "rule_id": "income_tax.credit_points",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Income Tax Ordinance ss.34-40 (resident 2.25, woman 0.5, children by age and parent). Child table must be confirmed against the Tax Authority credit-point guide",
+      "verified": false,
+      "value": {
+        "resident": 2.25,
+        "woman": 0.5,
+        "children": {
+          "mother": [
+            {"from_age": 0, "to_age": 0, "points": 1.5},
+            {"from_age": 1, "to_age": 5, "points": 2.5},
+            {"from_age": 6, "to_age": 17, "points": 1},
+            {"from_age": 18, "to_age": 18, "points": 0.5}
+          ],
+          "father": [
+            {"from_age": 0, "to_age": 0, "points": 1.5},
+            {"from_age": 1, "to_age": 5, "points": 2.5}
+          ]
+        }
+      }
+    }
+  ]
+}

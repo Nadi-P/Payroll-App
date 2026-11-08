@@ -1,0 +1,18 @@
+{
+  "rule_id": "labor.sick_leave",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Sick Pay Law 1976: 1.5 days accrued per month up to 90; day 1 unpaid, days 2-3 at 50%, day 4 onward 100%",
+      "verified": false,
+      "value": {
+        "monthly_accrual_days": 1.5,
+        "max_balance_days": 90,
+        "pay_percent_by_day": [
+          {"from_day": 1, "percent": 0}, {"from_day": 2, "percent": 50}, {"from_day": 4, "percent": 100}
+        ]
+      }
+    }
+  ]
+}

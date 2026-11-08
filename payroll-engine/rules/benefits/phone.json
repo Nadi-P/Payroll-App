@@ -1,0 +1,12 @@
+{
+  "rule_id": "benefits.phone",
+  "entries": [
+    {
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "source": "Income Tax (Value of Mobile Phone Use) Regulations 2009: monthly benefit value",
+      "verified": false,
+      "value": {"mobile_monthly": 105}
+    }
+  ]
+}

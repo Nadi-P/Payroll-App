@@ -1,0 +1,1478 @@
+{
+  "app": {
+    "name": "Paypex"
+  },
+  "locales": {
+    "he": "עברית",
+    "en": "English",
+    "ar": "العربية",
+    "ru": "Русский"
+  },
+  "common": {
+    "retry": "לנסות שוב",
+    "close": "סגירה",
+    "cancel": "ביטול",
+    "save": "שמירה",
+    "saving": "שומר…",
+    "back": "הקודם",
+    "next": "הבא",
+    "edit": "עריכה",
+    "total": "סה\"כ",
+    "explain": "לחצו כדי לראות איך זה חושב",
+    "selectAll": "בחירת הכול",
+    "selectNone": "ניקוי הכול"
+  },
+  "errors": {
+    "apiTitle": "אין חיבור למנוע השכר",
+    "apiBody": "יש להפעיל את שרת המנוע (פורט 8000) ולנסות שוב.",
+    "actionFailed": "הפעולה לא הצליחה"
+  },
+  "status": {
+    "approved": "מאושר",
+    "blocked": "דורש תיקון",
+    "ready": "מוכן לאישור",
+    "draft": "טיוטה"
+  },
+  "shell": {
+    "sidebar": "ניווט ראשי",
+    "openMenu": "פתיחת תפריט",
+    "search": "חיפוש",
+    "searchShortcut": "Ctrl K",
+    "company": "חברה",
+    "month": "חודש שכר",
+    "chooseCompany": "בחירת חברה",
+    "language": "שפה",
+    "theme": {
+      "label": "ערכת צבע",
+      "light": "בהירה",
+      "dark": "כהה",
+      "system": "לפי המערכת"
+    },
+    "lawVersion": "גרסת חוק {version}",
+    "viewRules": "לחוקים ולכללים",
+    "breadcrumbs": "מיקום בעמוד",
+    "loading": "טוען",
+    "user": "מחובר/ת בתור"
+  },
+  "nav": {
+    "sections": {
+      "workspace": "סביבת עבודה",
+      "company": "חברה",
+      "tools": "כלים",
+      "later": "בקרוב"
+    },
+    "portfolio": "תיק לקוחות",
+    "payroll": "חודש שכר",
+    "employees": "עובדים",
+    "exceptions": "חריגים",
+    "termination": "סיום העסקה",
+    "corrections": "תיקונים",
+    "reports": "דוחות רגולטוריים",
+    "settings": "הגדרות",
+    "simulator": "סימולטור תלוש",
+    "rules": "חוקים וכללים",
+    "migration": "הסבה ממערכת קודמת",
+    "assistant": "עוזר AI",
+    "portal": "פורטל עובדים",
+    "loader": "אנימציית טעינה",
+    "soon": "בקרוב",
+    "dataHistory": "היסטוריית נתונים"
+  },
+  "palette": {
+    "title": "לוח פקודות",
+    "placeholder": "חיפוש עמודים, חברות ועובדים…",
+    "empty": "לא נמצאו תוצאות",
+    "navigate": "ניווט",
+    "select": "פתיחה",
+    "groups": {
+      "pages": "עמודים",
+      "companies": "חברות",
+      "employees": "עובדים",
+      "actions": "פעולות"
+    },
+    "actions": {
+      "toggleTheme": "החלפה בין בהיר לכהה",
+      "language": "שפה: {name}"
+    }
+  },
+  "portfolio": {
+    "title": "לקוחות",
+    "card": {
+      "producedOf": "{produced} מתוך {expected} הופקו"
+    },
+    "progress": {
+      "notStarted": "טרם התחיל",
+      "inProgress": "בהפקה",
+      "sent": "הופקו ונשלחו",
+      "closed": "החודש נסגר"
+    },
+    "add": {
+      "action": "הוספת חברה",
+      "save": "הוספה"
+    },
+    "search": "חיפוש לקוח",
+    "free": "פנוי",
+    "assign": "שיוך",
+    "openEarlier": "עדיין פתוח: {months}",
+    "views": {
+      "label": "אילו לקוחות",
+      "mine": "הלקוחות שלי · {count}",
+      "free": "לקוחות פנויים · {count}",
+      "all": "הכול · {count}"
+    },
+    "columns": {
+      "client": "לקוח",
+      "employees": "עובדים פעילים",
+      "payslips": "תלושים",
+      "status": "סטטוס",
+      "alerts": "שגיאות ואזהרות",
+      "assignees": "משויך ל"
+    },
+    "empty": {
+      "mine": "אין לקוחות המשויכים אליך",
+      "free": "כל הלקוחות משויכים",
+      "all": "אין עדיין לקוחות"
+    }
+  },
+  "units": {
+    "days": "ימים",
+    "hours": "שעות"
+  },
+  "employee": {
+    "kinds": {
+      "monthly": "חודשי",
+      "hourly": "שעתי"
+    }
+  },
+  "payroll": {
+    "title": "{company} — שכר",
+    "recalculating": "מחשב מחדש…",
+    "reopen": "פתיחה לתיקונים",
+    "reviewExceptions": "לבדיקת הבעיות",
+    "stats": {
+      "employees": "עובדים",
+      "gross": "שכר ברוטו",
+      "tax": "מס הכנסה",
+      "insurance": "ביטוח לאומי ובריאות",
+      "net": "שכר נטו",
+      "cost": "עלות מעסיק"
+    },
+    "grid": {
+      "label": "עובדים החודש",
+      "empty": "אין עובדים פעילים החודש",
+      "employee": "עובד",
+      "kind": "סוג",
+      "hours": "שעות",
+      "bonus": "בונוס",
+      "absence": "ימי היעדרות",
+      "advance": "מקדמה",
+      "gross": "ברוטו",
+      "tax": "מס הכנסה",
+      "insurance": "ביטוח",
+      "net": "נטו",
+      "cost": "עלות מעסיק"
+    },
+    "confirm": {
+      "title": "לאשר את {month}?",
+      "body": "התלושים יהפכו לסופיים וננעלים. עדיין אפשר יהיה לפתוח את החודש מאוחר יותר לתיקונים.",
+      "action": "אישור ונעילה",
+      "form102": "סה\"כ לתשלום בטופס 102"
+    },
+    "close": "סגירת חודש",
+    "closedTag": "החודש סגור",
+    "production": {
+      "label": "תלושים שהופקו",
+      "count": "{produced}/{expected}",
+      "action": "הפקת תלושים",
+      "done": "כל התלושים נשלחו"
+    },
+    "fields": {
+      "hours": "שעות",
+      "sick": "ימי מחלה",
+      "vacation": "ימי חופשה",
+      "absence": "ימי היעדרות",
+      "travel": "נסיעות ליום"
+    },
+    "entry": {
+      "copy": "העתקה מ{month}",
+      "copyTitle": "להעתיק את הנתונים מ{month}?",
+      "copyBody": "הנתונים שהוזנו ל{month} יוחלפו. ימי מחלה וחופשה לא מועתקים.",
+      "copyAction": "העתקה",
+      "apply": "עדכון לכמה עובדים",
+      "applyAction": "עדכון",
+      "component": "רכיב",
+      "amount": "סכום"
+    },
+    "openMonths": "חודשים פתוחים",
+    "alertsAnd": " ו-",
+    "alertsIn": " אצל {people, plural, one {עובד אחד} other {# עובדים}}"
+  },
+  "payslip": {
+    "earnings": "תשלומים",
+    "benefits": "שווי (ממוסה, לא משולם)",
+    "deductions": "ניכויים",
+    "incomeTax": "מס הכנסה",
+    "nationalInsurance": "ביטוח לאומי",
+    "healthTax": "מס בריאות",
+    "pensionEmployee": "פנסיה (עובד)",
+    "studyFundEmployee": "קרן השתלמות (עובד)",
+    "partiallyApplied": "חלקית, היתרה נדחית",
+    "net": "שכר נטו",
+    "taxDetails": "איך חושב המס",
+    "taxable": "הכנסה חייבת",
+    "bracketTax": "מס לפי מדרגות",
+    "creditPoints": "נקודות זיכוי ({points})",
+    "pensionCredit": "זיכוי פנסיה",
+    "employerSide": "צד המעסיק",
+    "employerInsurance": "ביטוח לאומי (מעסיק)",
+    "pensionEmployer": "פנסיה (מעסיק)",
+    "severanceEmployer": "פיצויים",
+    "studyFundEmployer": "קרן השתלמות (מעסיק)",
+    "employerCost": "עלות מעסיק כוללת",
+    "balances": "יתרות אחרי החודש",
+    "vacationBalance": "חופשה",
+    "sickBalance": "מחלה",
+    "unverified": "{count} ערכי חוק טרם אומתו",
+    "categories": {
+      "standard": "שיעורי ביטוח רגילים",
+      "under_18": "שיעורים לצעירים מתחת ל-18",
+      "retirement_age": "שיעורים לגיל פרישה"
+    }
+  },
+  "explain": {
+    "subtitle": "איך חושב המספר הזה",
+    "result": "תוצאה",
+    "formula": "נוסחה",
+    "inputsTitle": "נתונים",
+    "sources": "החוק החל על החודש",
+    "inputs": {
+      "monthly_salary": "שכר חודשי",
+      "employed_fraction": "חלק החודש שעבד",
+      "work_days": "ימי עבודה בחודש",
+      "days": "ימים",
+      "regular_hours": "שעות רגילות",
+      "hourly_rate": "תעריף שעתי",
+      "hours": "שעות",
+      "hour_value": "ערך שעה",
+      "premium": "תוספת %",
+      "daily_cost": "עלות יומית בפועל",
+      "daily_cap": "תקרה יומית",
+      "attendance_days": "ימי נוכחות",
+      "annual_days": "ימים בשנה",
+      "day_value": "ערך יום",
+      "share": "החלק המשולם עכשיו",
+      "list_price": "מחיר מחירון לרכב",
+      "rate": "שיעור %",
+      "reduction": "הפחתה",
+      "value": "ערך",
+      "base": "בסיס שכר",
+      "employee_rate": "שיעור עובד %",
+      "employer_rate": "שיעור מעסיק %",
+      "employer_deposit": "הפקדת מעסיק",
+      "severance_deposit": "הפקדה לפיצויים",
+      "exempt": "החלק הפטור ממס",
+      "taxable": "הכנסה חייבת",
+      "bracket_tax": "מס לפי מדרגות",
+      "surtax": "מס יסף",
+      "credit_points": "נקודות זיכוי",
+      "point_value": "ערך נקודה",
+      "pension_credit": "זיכוי פנסיה",
+      "months": "חודשים עד כה",
+      "ytd_income": "הכנסה מתחילת השנה",
+      "ytd_credits": "זיכויים מתחילת השנה",
+      "ytd_withheld": "מס שכבר נוכה",
+      "insurable": "הכנסה מבוטחת",
+      "reduced_part": "חלק בשיעור מופחת",
+      "full_part": "חלק בשיעור מלא",
+      "gross_cash": "שכר ברוטו",
+      "income_tax": "מס הכנסה",
+      "insurance": "ביטוח לאומי ובריאות",
+      "employee_contributions": "הפרשות עובד",
+      "employer_insurance": "ביטוח לאומי מעסיק",
+      "employer_contributions": "הפרשות מעסיק",
+      "service_year": "שנת ותק",
+      "sick_days": "ימי מחלה",
+      "paid_share": "ימים בתשלום (משוקלל)",
+      "daily_wage": "שכר יומי",
+      "days_used": "ימים שנוצלו",
+      "holiday_days": "ימי חג",
+      "prior_three_months_gross": "ברוטו של 3 החודשים האחרונים",
+      "reserve_days": "ימי מילואים"
+    }
+  },
+  "flags": {
+    "BELOW_MINIMUM_WAGE": {
+      "title": "מתחת לשכר המינימום",
+      "hint": "השכר המקביל למשרה מלאה נמוך מהמינימום בחוק. יש להעלות את השכר או התעריף."
+    },
+    "PENSION_MISSING": {
+      "title": "חסרה קרן פנסיה",
+      "hint": "העובד עבר את תקופת ההמתנה לפנסיית חובה. יש להוסיף קרן פנסיה בכרטיס העובד."
+    },
+    "NO_CREDIT_POINTS": {
+      "title": "אין נקודות זיכוי",
+      "hint": "אצל מעסיק עיקרי יש בדרך כלל טופס 101 עם נקודות זיכוי. כדאי לבדוק את פרטי המס של העובד."
+    },
+    "OVERTIME_SPIKE": {
+      "title": "שעות נוספות חריגות",
+      "hint": "השעות הנוספות גבוהות בהרבה מהחודשים הקודמים. כדאי לוודא שהשעות נכונות."
+    },
+    "INSURANCE_CEILING": {
+      "title": "מעל תקרת הביטוח",
+      "hint": "הכנסה מעל תקרת הביטוח הלאומי אינה מבוטחת. אין צורך בתיקון."
+    },
+    "NEGATIVE_NET": {
+      "title": "נטו שלילי",
+      "hint": "הניכויים גבוהים מהשכר. יש להקטין ניכויים או לבדוק את הנתונים."
+    },
+    "DEDUCTIONS_NOT_APPLIED": {
+      "title": "ניכויים שלא נכנסו",
+      "hint": "חלק מהניכויים גבוה מהנטו ויועבר לחודש הבא."
+    },
+    "TAX_REFUND": {
+      "title": "החזר מס החודש",
+      "hint": "השיטה המצטברת מחזירה מס שנוכה ביתר."
+    },
+    "VACATION_OVERDRAWN": {
+      "title": "יתרת חופשה שלילית",
+      "hint": "נוצלו יותר ימי חופשה ממה שנצבר. כדאי לבדוק את הימים שהוזנו."
+    },
+    "OTHER": {
+      "title": "כדאי לבדוק את העובד",
+      "hint": "המנוע סימן משהו חריג."
+    },
+    "count": {
+      "error": "{count, plural, one {# שגיאה} other {# שגיאות}}",
+      "warning": "{count, plural, one {# אזהרה} other {# אזהרות}}",
+      "info": "{count, plural, one {# הערה} other {# הערות}}"
+    }
+  },
+  "rules": {
+    "verified": "מאומת",
+    "unverified": "ממתין לאימות",
+    "openEnded": "עד לשינוי",
+    "names": {
+      "income_tax-brackets": "מדרגות מס הכנסה",
+      "income_tax-surtax": "מס יסף על הכנסה גבוהה",
+      "income_tax-credit_point_value": "ערך נקודת זיכוי",
+      "income_tax-credit_points": "נקודות זיכוי (טופס 101)",
+      "income_tax-secondary_job": "ניכוי במשרה נוספת",
+      "income_tax-pension_credit": "זיכוי מס בגין פנסיה (סעיף 45א)",
+      "national_insurance-thresholds": "תקרות ביטוח לאומי",
+      "national_insurance-rates": "שיעורי ביטוח לאומי ובריאות",
+      "national_insurance-ages": "קבוצות גיל בביטוח",
+      "pension-mandatory": "פנסיית חובה",
+      "pension-employer_exemption": "הפקדות מעסיק פטורות ממס",
+      "pension-study_fund": "פטור קרן השתלמות",
+      "labor-minimum_wage": "שכר מינימום",
+      "labor-hours": "שעות עבודה ושעות נוספות",
+      "labor-travel": "החזר הוצאות נסיעה",
+      "labor-recuperation": "דמי הבראה",
+      "labor-vacation": "חופשה שנתית",
+      "labor-sick_leave": "דמי מחלה",
+      "labor-holidays": "דמי חגים",
+      "labor-reserve_duty": "שירות מילואים",
+      "benefits-car": "שווי רכב צמוד",
+      "benefits-phone": "שווי טלפון נייד",
+      "termination-severance": "פיצויי פיטורים",
+      "termination-notice": "הודעה מוקדמת",
+      "validation-thresholds": "ספי חריגה",
+      "components-catalog": "קטלוג רכיבי שכר",
+      "calendar-holidays": "חגים ומועדים"
+    }
+  },
+  "simulator": {
+    "eyebrow": "שום נתון לא נשמר",
+    "title": "סימולטור תלוש",
+    "subtitle": "מנסים כל שכר וכל מצב. המנוע האמיתי מחשב את התלוש תוך כדי הקלדה.",
+    "reset": "איפוס",
+    "invalid": "המנוע לא יכול לחשב את זה עדיין",
+    "payslip": "תלוש",
+    "payslipHint": "לחיצה על כל מספר מסבירה איך הוא חושב",
+    "addChild": "הוספת ילד",
+    "removeChild": "הסרה",
+    "sections": {
+      "pay": "שכר",
+      "person": "עובד",
+      "extras": "קופות והטבות"
+    },
+    "fields": {
+      "salary": "שכר חודשי",
+      "rate": "תעריף שעתי",
+      "hours": "שעות החודש",
+      "hoursHint": "מחולקות שווה על ימי העבודה",
+      "jobFraction": "היקף משרה",
+      "period": "חודש שכר",
+      "bonus": "בונוס",
+      "gender": "מגדר",
+      "birthDate": "תאריך לידה",
+      "startDate": "תחילת עבודה",
+      "resident": "תושב/ת ישראל",
+      "mainEmployer": "מעסיק עיקרי (נקודות הזיכוי חלות כאן)",
+      "children": "ילדים",
+      "childBirth": "תאריך לידה של הילד",
+      "pension": "קרן פנסיה",
+      "studyFund": "קרן השתלמות",
+      "phone": "טלפון נייד מהעבודה",
+      "travel": "עלות נסיעה ליום",
+      "carPrice": "מחיר מחירון לרכב צמוד",
+      "carType": "סוג רכב"
+    },
+    "gender": {
+      "female": "אישה",
+      "male": "גבר"
+    },
+    "car": {
+      "fuel": "דלק",
+      "hybrid": "היברידי",
+      "plugIn": "פלאג-אין",
+      "electric": "חשמלי"
+    }
+  },
+  "employees": {
+    "title": "עובדים",
+    "search": "חיפוש לפי שם, ת\"ז, מחלקה…",
+    "empty": "אין התאמות",
+    "pensionNo": "ללא פנסיה",
+    "stats": {
+      "active": "עובדים פעילים",
+      "inactive": "עובדים לא פעילים",
+      "pension": "פנסיה ופיצויים",
+      "insurance": "ביטוח לאומי",
+      "health": "ביטוח בריאות"
+    },
+    "filters": {
+      "all": "הכול",
+      "active": "פעילים",
+      "inactive": "לא פעילים"
+    },
+    "columns": {
+      "name": "שם",
+      "nationalId": "תעודת זהות",
+      "department": "מחלקה",
+      "position": "תפקיד",
+      "kind": "סוג",
+      "pay": "שכר / תעריף",
+      "start": "תחילת עבודה",
+      "status": "סטטוס"
+    },
+    "leftOn": "סיים/ה ב-{date}",
+    "metrics": {
+      "cost": "עלות מעסיק",
+      "net": "שכר נטו",
+      "gross": "שכר ברוטו",
+      "tax": "מס הכנסה",
+      "pension": "פנסיה ופיצויים",
+      "insurance": "ביטוח לאומי ובריאות"
+    },
+    "charts": {
+      "shareTitle": "חלקו של כל עובד",
+      "metric": "מדד",
+      "barsTitle": "רכיבי השכר לפי עובד",
+      "barsSubtitle": "תוספות לשכר מול ניכויים",
+      "adds": "תוספות",
+      "deducts": "ניכויים"
+    },
+    "add": {
+      "action": "הוספת עובד",
+      "save": "הוספה",
+      "badId": "מספר תעודת זהות לא תקין",
+      "required": "שדה חובה"
+    }
+  },
+  "profile": {
+    "notFound": "העובד לא קיים",
+    "ended": "ההעסקה הסתיימה",
+    "active": "פעיל",
+    "tabsLabel": "חלקי כרטיס העובד",
+    "tabs": {
+      "details": "פרטים",
+      "history": "היסטוריה",
+      "terms": "תנאי העסקה"
+    },
+    "unsaved": "יש שינויים שלא נשמרו",
+    "discard": "ביטול שינויים",
+    "saveFailed": "השמירה נכשלה",
+    "sections": {
+      "personal": "פרטים אישיים",
+      "employment": "העסקה",
+      "contact": "פרטי התקשרות וכתובת",
+      "spouse": "בן/בת הזוג"
+    },
+    "fields": {
+      "firstName": "שם פרטי",
+      "lastName": "שם משפחה",
+      "nationalId": "תעודת זהות",
+      "birthDate": "תאריך לידה",
+      "gender": "מגדר",
+      "email": "דוא\"ל",
+      "department": "מחלקה",
+      "position": "תפקיד",
+      "kind": "סוג שכר",
+      "salary": "שכר חודשי",
+      "rate": "תעריף שעתי",
+      "jobFraction": "חלקיות משרה",
+      "workWeek": "שבוע עבודה",
+      "startDate": "תחילת עבודה",
+      "endDate": "סיום עבודה",
+      "maritalStatus": "מצב משפחתי",
+      "healthFund": "קופת חולים",
+      "kibbutz": "חבר/ת קיבוץ או מושב שיתופי",
+      "phone": "טלפון",
+      "mobile": "טלפון נייד",
+      "street": "רחוב",
+      "houseNumber": "מספר בית",
+      "city": "יישוב",
+      "zip": "מיקוד",
+      "spouseIncome": "הכנסת בן/בת הזוג",
+      "incomeType": "סוג ההכנסה ממעסיק זה",
+      "immigrationDate": "תאריך עלייה"
+    },
+    "workWeek": {
+      "five": "5 ימים (א׳–ה׳)",
+      "six": "6 ימים (א׳–ו׳)"
+    },
+    "tax": {
+      "status": "מעמד מס",
+      "noChildren": "לא הוזנו ילדים",
+      "claims": "נקודות זיכוי נוספות",
+      "noClaims": "אין זיכויים נוספים",
+      "points": "{points} נקודות",
+      "fixedRate": "שיעור ניכוי קבוע {rate}%",
+      "coordination": "אישור תיאום מס",
+      "otherIncome": "הכנסות אחרות"
+    },
+    "history": {
+      "emptyTitle": "אין עדיין תלושים מאושרים",
+      "emptyBody": "התלושים יופיעו כאן אחרי אישור החודש.",
+      "chart": "שכר נטו לפי חודש",
+      "table": "היסטוריית תלושים",
+      "month": "חודש",
+      "payslipFor": "תלוש — {month}"
+    },
+    "marital": {
+      "single": "רווק/ה",
+      "married": "נשוי/אה",
+      "divorced": "גרוש/ה",
+      "widowed": "אלמן/ה",
+      "separated": "פרוד/ה"
+    },
+    "healthFunds": {
+      "clalit": "כללית",
+      "maccabi": "מכבי",
+      "meuhedet": "מאוחדת",
+      "leumit": "לאומית",
+      "none": "ללא"
+    },
+    "spouseIncome": {
+      "none": "אין הכנסה",
+      "work": "עבודה או עסק",
+      "other": "הכנסה אחרת"
+    },
+    "incomeTypes": {
+      "monthly": "משכורת חודש",
+      "additional": "משכורת נוספת",
+      "partial": "משכורת חלקית",
+      "daily": "שכר עבודה (עובד יומי)",
+      "pension": "קצבה",
+      "stipend": "מלגה"
+    },
+    "standing": {
+      "title": "רכיבים קבועים",
+      "add": "הוספת רכיב",
+      "empty": "אין רכיבים קבועים",
+      "from": "מתאריך",
+      "to": "עד תאריך",
+      "remove": "הסרה"
+    },
+    "openMonth": "מעבר לשכר {month}",
+    "facts": {
+      "number": "מספר עובד",
+      "seniority": "ותק",
+      "seniorityValue": "{years} ש׳, {months} ח׳"
+    }
+  },
+  "exceptions": {
+    "title": "חריגים",
+    "subtitle": "כל מה שב{company} דורש בדיקה לפני האישור.",
+    "backToPayroll": "חזרה לחודש השכר",
+    "fix": "לתיקון",
+    "emptyTitle": "אין מה לתקן",
+    "emptyBody": "אין בעיות מהסוג הזה החודש.",
+    "filters": {
+      "all": "הכול",
+      "error": "שגיאות",
+      "warning": "אזהרות",
+      "info": "מידע"
+    },
+    "legend": {
+      "title": "משמעות הצבעים",
+      "error": "שגיאות חוסמות את האישור עד לתיקון",
+      "warning": "אזהרות כדאי לבדוק, אבל הן לא חוסמות",
+      "info": "מידע בלבד, אין צורך בפעולה"
+    },
+    "trust": {
+      "title": "ערכי חוק שממתינים לאימות",
+      "body": "{count} ערכי חוק שבשימוש החודש טרם אומתו מול מקור רשמי."
+    }
+  },
+  "rulesCenter": {
+    "title": "חוקים וכללים",
+    "subtitle": "כל מספר שהמנוע משתמש בו, עם המקור החוקי, התאריכים שבהם הוא חל והאם אומת.",
+    "coveredTitle": "החוק טעון לכל החודשים",
+    "coveredBody": "הכללים מכסים כל חודש מ-{first} עד {last}.",
+    "gapsTitle": "בחלק מהחודשים חסרים כללים",
+    "gapsBody": "חסר עבור: {months}",
+    "search": "חיפוש כללים או מקורות…",
+    "empty": "אין כללים מתאימים",
+    "inForce": "בתוקף היום",
+    "value": "ערך",
+    "stats": {
+      "rules": "כללים",
+      "versions": "גרסאות מתוארכות",
+      "unverified": "ממתינים לאימות",
+      "unverifiedHint": "מתוך הגרסאות שבתוקף היום"
+    },
+    "filters": {
+      "current": "בתוקף",
+      "unverified": "לא מאומתים",
+      "all": "כל הגרסאות"
+    },
+    "columns": {
+      "rule": "כלל",
+      "from": "בתוקף מ",
+      "to": "עד",
+      "status": "סטטוס",
+      "source": "מקור"
+    }
+  },
+  "termination": {
+    "title": "סיום העסקה",
+    "subtitle": "גמר חשבון: פיצויים, סעיף 14, הודעה מוקדמת, פדיון חופשה והבראה — מוכן לטופס 161.",
+    "calculate": "חישוב גמר חשבון",
+    "another": "חישוב נוסף",
+    "steps": {
+      "employee": "עובד ותאריך",
+      "details": "הסדרים",
+      "settlement": "גמר חשבון"
+    },
+    "choose": {
+      "title": "מי עוזב, ומתי?",
+      "body": "בוחרים את העובד ואת יום העבודה האחרון.",
+      "employee": "עובד",
+      "placeholder": "בחירת עובד",
+      "date": "יום אחרון",
+      "summary": "מועסק מאז {start}"
+    },
+    "details": {
+      "severance": "פיצויים",
+      "entitled": "זכאי לפיצויי פיטורים",
+      "section14": "הסדר סעיף 14",
+      "section14Hint": "הפקדות לפנסיה שבאות במקום פיצויי פיטורים",
+      "s14full": "מלא (8.33%)",
+      "s14partial": "חלקי",
+      "s14none": "ללא",
+      "s14rate": "שיעור הפקדה לפי סעיף 14",
+      "fund": "יתרה בקופת פיצויים",
+      "fundHint": "הפקדות שאינן במסגרת סעיף 14",
+      "notice": "הודעה מוקדמת ויתרות",
+      "noticeRequired": "חלה הודעה מוקדמת",
+      "noticeGiven": "ימי הודעה שכבר ניתנו",
+      "vacation": "ימי חופשה שלא נוצלו",
+      "vacationHint": "מולא מהתלוש האחרון",
+      "recuperation": "ימי הבראה שלא שולמו"
+    },
+    "result": {
+      "title": "גמר חשבון — {name}",
+      "subtitle": "הנתונים לטופס 161",
+      "years": "שנות ותק",
+      "entitlement": "זכאות לפיצויים",
+      "covered": "מכוסה בהפקדות סעיף 14",
+      "fund": "משולם מקופת הפיצויים",
+      "employerSeverance": "פיצויים שמשלם המעסיק",
+      "exempt": "החלק הפטור ממס",
+      "taxable": "החלק החייב במס",
+      "notice": "תמורת הודעה מוקדמת ({days} ימים)",
+      "vacation": "פדיון חופשה",
+      "recuperation": "פדיון הבראה",
+      "total": "המעסיק משלם עכשיו",
+      "howTitle": "איך זה חושב",
+      "howBody": "הנוסחאות שהמנוע הפעיל"
+    },
+    "trace": {
+      "severance": "פיצויים",
+      "notice": "הודעה מוקדמת",
+      "vacation": "פדיון חופשה",
+      "recuperation": "הבראה"
+    }
+  },
+  "reports": {
+    "form102": {
+      "file": "תיק ניכויים",
+      "employees": "עובדים",
+      "gross": "סה\"כ שכר ברוטו",
+      "insurable": "הכנסה מבוטחת",
+      "tax": "מס הכנסה שנוכה",
+      "blEmployee": "ביטוח לאומי (עובדים)",
+      "health": "מס בריאות",
+      "blEmployer": "ביטוח לאומי (מעסיק)",
+      "total": "סה\"כ לתשלום"
+    },
+    "annual": {
+      "months": "חודשים",
+      "withheld": "מס שנוכה",
+      "due": "מס לתשלום לשנה",
+      "difference": "הפרש"
+    },
+    "costs": {
+      "composition": "לאן הולכת עלות המעסיק",
+      "byDepartment": "עלות לפי מחלקה",
+      "net": "שכר נטו",
+      "tax": "מס הכנסה",
+      "insurance": "ביטוח לאומי ובריאות",
+      "funds": "פנסיה וקופות",
+      "other": "אחר",
+      "employerOnTop": "עלות מעסיק נוספת"
+    },
+    "funds": {
+      "pensionBase": "בסיס לפנסיה",
+      "studyBase": "בסיס לקרן השתלמות"
+    },
+    "balances": {
+      "vacation": "יתרת חופשה",
+      "vacationAccrued": "חופשה שנצברה החודש",
+      "sick": "יתרת מחלה",
+      "sickAccrued": "מחלה שנצברה החודש"
+    }
+  },
+  "corrections": {
+    "title": "תיקונים",
+    "subtitle": "משנים חודש מאושר ורואים בדיוק מה משתנה לפני שמאשרים מחדש.",
+    "approvedTitle": "החודש הזה מאושר",
+    "approvedBody": "יש לפתוח אותו לתיקונים. התלושים המאושרים נשמרים להשוואה.",
+    "openTitle": "תיקונים בתהליך",
+    "openBody": "עורכים את החודש במסך השכר. כל הפרש מהגרסה המאושרת מופיע כאן.",
+    "editInPayroll": "עריכה בחודש השכר",
+    "netChange": "שינוי בשכר נטו",
+    "taxChange": "שינוי במס הכנסה",
+    "costChange": "שינוי בעלות מעסיק",
+    "changedLines": "מה השתנה",
+    "noChanges": "אין עדיין הפרשים",
+    "noChangesBody": "עורכים את החודש וההפרשים יופיעו כאן.",
+    "noneTitle": "אין תיקונים לחודש הזה",
+    "noneBody": "בוחרים חודש מאושר בצד כדי לתקן אותו.",
+    "months": "חודשים"
+  },
+  "settings": {
+    "title": "הגדרות",
+    "company": {
+      "title": "חברה",
+      "name": "שם החברה",
+      "file": "מספר תיק ניכויים"
+    },
+    "policies": {
+      "title": "מדיניות שכר",
+      "taxMethod": "שיטת ניכוי המס",
+      "monthly": "חודשית",
+      "cumulative": "מצטברת",
+      "proration": "חודשים חלקיים",
+      "workDays": "לפי ימי עבודה",
+      "calendarDays": "לפי ימים קלנדריים",
+      "recuperation": "דמי הבראה",
+      "inMonth": "משולמים פעם בשנה, בחודש {month}",
+      "spread": "פרוסים חודשית (1/12)"
+    },
+    "catalog": {
+      "title": "רכיבי שכר",
+      "subtitle": "{count} רכיבים. מכאן נקבע איך כל רכיב ממוסה ומבוטח.",
+      "search": "חיפוש רכיבים…",
+      "name": "רכיב",
+      "code": "קוד",
+      "kind": "סוג",
+      "flags": "נכלל ב",
+      "add": "הוספת רכיב",
+      "inactive": "לא פעיל",
+      "active": "פעיל"
+    },
+    "kinds": {
+      "earning": "תשלום",
+      "benefit": "שווי",
+      "deduction": "ניכוי"
+    },
+    "flags": {
+      "taxable": "מס הכנסה",
+      "insurable": "ביטוח לאומי",
+      "pension_base": "פנסיה",
+      "study_fund_base": "קרן השתלמות",
+      "severance_base": "פיצויים"
+    }
+  },
+  "comingSoon": {
+    "migration": {
+      "title": "מעבר בתוך דקות",
+      "body": "מעבירים עובדים, היסטוריה ויתרות ממערכת השכר הנוכחית, כשכל מספר נבדק.",
+      "points": {
+        "p1": "ייבוא טפסי 106, 102 וקבצים ממערכות ותיקות",
+        "p2": "ביקורת זה-לצד-זה של כל נתון שיובא",
+        "p3": "איתור פערים ברציפות המס ובסעיף 14",
+        "p4": "שום דבר לא עולה לאוויר בלי אישור שלכם"
+      }
+    },
+    "assistant": {
+      "title": "שואלים את השכר כל שאלה",
+      "body": "שאלות בשפה פשוטה על עלויות, מגמות ותלושים — עם תשובות מהנתונים שלכם ועם מקורות.",
+      "points": {
+        "p1": "\"למה השעות הנוספות עלו יותר החודש?\"",
+        "p2": "כל תשובה מפנה לתלושים שממנה היא נלקחה",
+        "p3": "קריאה בלבד: אף פעם לא משנה נתונים",
+        "p4": "הנתונים של כל חברה נשארים נפרדים"
+      }
+    },
+    "portal": {
+      "title": "אפליקציית העובדים",
+      "body": "תלושים, יתרות ובקשות בטלפון של כל עובד.",
+      "points": {
+        "p1": "תלושים אינטראקטיביים עם הסברים",
+        "p2": "טופס 101 דיגיטלי עם חתימה",
+        "p3": "דיווח נוכחות וסידור משמרות",
+        "p4": "יתרות חופשה ומחלה בזמן אמת"
+      }
+    }
+  },
+  "breakdown": {
+    "employees": "עובדים",
+    "components": "רכיבים",
+    "total": "סה״כ",
+    "empty": "לא נבחרו נתונים להצגה"
+  },
+  "parts": {
+    "blEmployer": "ביטוח לאומי מעסיק",
+    "pensionEmployer": "פנסיה מעסיק",
+    "severance": "פיצויים",
+    "studyEmployer": "קרן השתלמות מעסיק",
+    "incomeTax": "מס הכנסה",
+    "blEmployee": "ביטוח לאומי עובד",
+    "health": "ביטוח בריאות",
+    "pensionEmployee": "פנסיה עובד",
+    "studyEmployee": "קרן השתלמות עובד",
+    "disabilityEmployee": "אובדן כושר עבודה עובד",
+    "disabilityEmployer": "אובדן כושר עבודה מעסיק",
+    "otherEmployee": "שונות עובד",
+    "otherEmployer": "שונות מעסיק"
+  },
+  "history": {
+    "taxYear": "שנת מס {year}",
+    "changes": "שינויים בתנאי ההעסקה",
+    "payslips": "תלושים",
+    "noChanges": "עוד לא נרשמו שינויים",
+    "change": {
+      "added": "נוסף",
+      "changed": "שונה",
+      "removed": "הוסר"
+    },
+    "fields": {
+      "employment": "העסקה",
+      "kind": "סוג שכר",
+      "monthly_salary": "שכר חודשי",
+      "hourly_rate": "תעריף שעתי",
+      "job_fraction": "אחוז משרה",
+      "work_week": "שבוע עבודה",
+      "start_date": "תחילת עבודה",
+      "end_date": "סיום עבודה",
+      "department": "מחלקה",
+      "sub_department": "תת מחלקה",
+      "position": "תפקיד",
+      "insurance_category": "סיווג ביטוח",
+      "standing": "רכיב קבוע: {item}",
+      "fund": "קופה: {item}"
+    }
+  },
+  "table": {
+    "search": "חיפוש בטבלה",
+    "columns": "עמודות",
+    "groupBy": "קיבוץ",
+    "noGrouping": "ללא קיבוץ",
+    "byDepartment": "לפי מחלקה",
+    "byPosition": "לפי תפקיד",
+    "export": "ייצוא לאקסל",
+    "empty": "לא נמצאו נתונים"
+  },
+  "analysis": {
+    "forecast": "תחזית לסוף השנה",
+    "cause": "סיבה",
+    "change": "שינוי",
+    "causes": {
+      "hires": "עובדים חדשים",
+      "leavers": "עובדים שעזבו",
+      "salary": "שכר ומשרה",
+      "overtime": "שעות נוספות",
+      "bonuses": "בונוסים ועמלות",
+      "otherPay": "תשלומים אחרים",
+      "employer": "הפרשות מעסיק"
+    },
+    "unusualTitle": "שינויים חריגים בשכר",
+    "owedTitle": "התחייבויות החברה",
+    "owedVacation": "שווי חופשה שנצברה",
+    "owedEntitlement": "זכאות לפיצויים",
+    "owedFunded": "פיצויים בקופות",
+    "owedShortfall": "השלמת פיצויים"
+  },
+  "exports": {
+    "title": "דוחות לייצוא",
+    "groups": {
+      "monthly": "חודשי · {month}",
+      "halfYear": "חצי שנתי",
+      "annual": "שנתי · {year}",
+      "event": "לפי צורך"
+    },
+    "due": "עד {date}",
+    "halfYear": "{first}–{last} {year}",
+    "taxYear": "שנת המס {year}",
+    "print": "הדפסה",
+    "summary": "סיכום",
+    "details": "פרטים",
+    "emptyTitle": "אין עדיין נתונים מאושרים לדוח זה",
+    "monthsApproved": "{count} מתוך {total} חודשים אושרו",
+    "status": {
+      "ready": "סופי",
+      "partial": "בתהליך",
+      "draft": "טיוטה · החודש לא אושר",
+      "empty": "אין נתונים",
+      "none": "לפי דרישה"
+    },
+    "fields": {
+      "employer": "מעסיק",
+      "recipient": "נשלח אל",
+      "period": "תקופה",
+      "due": "מועד אחרון",
+      "startDate": "תחילת עבודה",
+      "endDate": "סיום עבודה",
+      "jobFraction": "אחוז משרה",
+      "category": "סוג ביטוח",
+      "creditPoints": "נקודות זיכוי",
+      "pensionCredit": "זיכוי פנסיה"
+    },
+    "categories": {
+      "standard": "רגיל",
+      "under_18": "מתחת לגיל 18",
+      "retirement_age": "גיל פרישה"
+    },
+    "form100": {
+      "joined": "נקלט",
+      "left": "עזב",
+      "joiners": "נקלטו החודש",
+      "event": "שינוי",
+      "total": "סה״כ ביטוח לאומי ובריאות"
+    },
+    "funds": {
+      "employees": "עובדים עם הפקדות",
+      "total": "סך ההפקדות"
+    },
+    "payslips": {
+      "sent": "נשלח",
+      "produced": "הופק",
+      "notProduced": "לא הופק",
+      "sentOf": "{sent} מתוך {total} נשלחו",
+      "expected": "תלושים נדרשים",
+      "producedCount": "הופקו",
+      "sentCount": "נשלחו",
+      "netTotal": "סה״כ נטו",
+      "state": "מצב",
+      "open": "פתיחת חודש השכר"
+    },
+    "form161": {
+      "start": "סיום העסקה חדש",
+      "none": "אף עובד לא עזב ב-{year}"
+    },
+    "wages": {
+      "average": "ברוטו חודשי ממוצע",
+      "months": "תקופה",
+      "last": "{count} חודשים אחרונים"
+    },
+    "filings": {
+      "form102": {
+        "title": "טופס 102",
+        "subtitle": "דיווח חודשי על ניכויים וביטוח לאומי",
+        "recipient": "רשות המסים והמוסד לביטוח לאומי"
+      },
+      "form100": {
+        "title": "טופס 100",
+        "subtitle": "דיווח חודשי מפורט על כל עובד",
+        "recipient": "המוסד לביטוח לאומי"
+      },
+      "funds": {
+        "title": "הפקדות לפנסיה ולקרן השתלמות",
+        "subtitle": "ההפקדות החודשיות של כל עובד, לפי רכיב",
+        "recipient": "קופות הפנסיה וההשתלמות"
+      },
+      "payslips": {
+        "title": "תלושי שכר",
+        "subtitle": "תלוש השכר החודשי של כל עובד",
+        "recipient": "העובדים"
+      },
+      "bl126": {
+        "title": "טופס 126 · חצי שנתי",
+        "subtitle": "ינואר עד יוני, לכל עובד",
+        "recipient": "המוסד לביטוח לאומי"
+      },
+      "form126": {
+        "title": "טופס 126",
+        "subtitle": "דוח שנתי על משכורות וניכויים",
+        "recipient": "רשות המסים"
+      },
+      "form106": {
+        "title": "טופס 106",
+        "subtitle": "אישור שנתי על שכר ומס לעובד",
+        "recipient": "העובד"
+      },
+      "form161": {
+        "title": "טופס 161",
+        "subtitle": "הודעה על פרישה ופיצויים, בסיום העסקה",
+        "recipient": "רשות המסים"
+      },
+      "wages": {
+        "title": "אישור שכר",
+        "subtitle": "השכר בחודשים האחרונים, לתביעות בביטוח לאומי",
+        "recipient": "המוסד לביטוח לאומי"
+      }
+    }
+  },
+  "roles": {
+    "admin": "מנהל משרד",
+    "lead": "ראש צוות",
+    "accountant": "חשב/ת שכר",
+    "viewer": "צפייה בלבד"
+  },
+  "sections": {
+    "label": "חלק",
+    "payments": "תשלומים",
+    "imputed": "זקיפות",
+    "deductions": "ניכויי רשות",
+    "funds": "קופות סוציאליות",
+    "absences": "היעדרויות",
+    "totals": {
+      "payments": "ברוטו",
+      "imputed": "סה\"כ זקיפות",
+      "deductions": "סה\"כ ניכויים",
+      "funds": "סה\"כ הפקדות",
+      "absences": "סה\"כ ימים"
+    }
+  },
+  "absences": {
+    "vacation": "חופשה",
+    "sick": "מחלה",
+    "recuperation": "הבראה",
+    "reserve": "מילואים",
+    "days": "ימים",
+    "previous": "יתרה קודמת",
+    "adjustment": "קליטה חד פעמית",
+    "accrued": "צבירה חודשית",
+    "used": "ניצול חודשי",
+    "balance": "יתרה",
+    "reserveDays": "ימי מילואים",
+    "unpaid": "ימי היעדרות ללא תשלום"
+  },
+  "monthEntry": {
+    "item": "רכיב",
+    "quantity": "כמות",
+    "rate": "תעריף",
+    "amount": "סכום",
+    "overridden": "שונה החודש",
+    "standing": "קבוע",
+    "remove": "הסרה",
+    "hours": "שעות החודש",
+    "travel": "נסיעות: עלות יומית",
+    "attendance": "ימי נוכחות",
+    "addPayment": "הוספת תשלום",
+    "carPrice": "מחיר מחירון לרכב צמוד",
+    "carType": "סוג רכב",
+    "carTypes": {
+      "none": "רגיל",
+      "electric": "חשמלי",
+      "plug_in_hybrid": "היברידי נטען",
+      "hybrid": "היברידי"
+    },
+    "phone": "טלפון נייד מהעבודה",
+    "addImputed": "הוספת זקיפה",
+    "addDeduction": "הוספת ניכוי"
+  },
+  "funds": {
+    "kinds": {
+      "pension": "קרן פנסיה",
+      "managers_insurance": "ביטוח מנהלים",
+      "provident": "קופת גמל",
+      "study_fund": "קרן השתלמות"
+    },
+    "share": "{share}% מהשכר",
+    "rates": {
+      "employee_rate": "עובד {rate}%",
+      "employer_rate": "מעסיק {rate}%",
+      "severance_rate": "פיצויים {rate}%",
+      "disability_employee_rate": "א. כושר עובד {rate}%",
+      "disability_employer_rate": "א. כושר מעסיק {rate}%",
+      "other_employee_rate": "שונות עובד {rate}%",
+      "other_employer_rate": "שונות מעסיק {rate}%"
+    },
+    "statutory": "לפי חוק",
+    "none": "אין קופות",
+    "editTerms": "עריכה בתנאי העסקה",
+    "unnamed": "קופה חדשה",
+    "remove": "הסרת קופה",
+    "add": "הוספת קופה",
+    "ratesTitle": "שיעורים, % מהשכר",
+    "fields": {
+      "name": "שם קופה",
+      "kind": "סוג קופה",
+      "code": "קוד קופה",
+      "member": "מספר עמית",
+      "branch": "מספר סניף",
+      "group": "קבוצה",
+      "amountsRef": "ע. ע. סכומים",
+      "share": "חלק מהשכר"
+    },
+    "rateNames": {
+      "employee_rate": "עובד",
+      "employer_rate": "מעסיק",
+      "severance_rate": "פיצויים",
+      "disability_employee_rate": "א. כושר עובד",
+      "disability_employer_rate": "א. כושר מעסיק",
+      "other_employee_rate": "שונות עובד",
+      "other_employer_rate": "שונות מעסיק"
+    }
+  },
+  "employeeMonth": {
+    "breakdown": "פילוח",
+    "data": "כל נתוני החודש",
+    "bySection": "לפי חלק",
+    "bySource": "לפי מקור",
+    "section": "חלק",
+    "source": "מקור",
+    "notThisMonth": "העובד אינו בשכר של חודש זה",
+    "backToMonth": "חזרה לחודש השכר",
+    "openProfile": "פתיחת הפרופיל",
+    "simulate": "סימולציית שינויים",
+    "alerts": "שגיאות ואזהרות",
+    "entry": "נתוני החודש",
+    "payslip": "התלוש עד כה"
+  },
+  "monthData": {
+    "typed": "הוקלד החודש",
+    "standing": "תנאי העסקה",
+    "calculated": "חושב",
+    "statutory": "ניכויי חובה"
+  },
+  "terms": {
+    "kind": "סוג שכר",
+    "salary": "שכר חודשי",
+    "rate": "תעריף שעתי",
+    "jobFraction": "אחוז משרה",
+    "workWeek": "שבוע עבודה",
+    "days": "{count} ימים",
+    "start": "תחילת עבודה",
+    "end": "סיום עבודה",
+    "subDepartment": "תת מחלקה",
+    "insurance": "סיווג ביטוח לאומי",
+    "insuranceAuto": "לפי גיל",
+    "pay": "שכר ושיבוץ",
+    "funds": "קופות גמל",
+    "standing": "רכיבים קבועים"
+  },
+  "simulation": {
+    "fundsEmployee": "הפקדות לקופות (עובד)",
+    "title": "סימולציה · {name}",
+    "unsaved": "לא נשמר",
+    "reset": "התחלה מחדש",
+    "discard": "ביטול וחזרה",
+    "save": "שמירת השינויים",
+    "tabs": {
+      "label": "מה לשנות",
+      "terms": "תנאי העסקה",
+      "month": "החודש"
+    },
+    "employee": "תלוש העובד",
+    "month": "החודש כולו",
+    "now": "כעת",
+    "after": "אחרי",
+    "change": "שינוי"
+  },
+  "reportView": {
+    "total": "סה\"כ",
+    "empty": "אין שורות מתאימות",
+    "emptyPivot": "גררו שדות לשורות ולערכים כדי לבנות את טבלת הציר",
+    "yes": "כן",
+    "expand": "פתיחה",
+    "collapse": "סגירה",
+    "aggregations": {
+      "sum": "סכום",
+      "avg": "ממוצע",
+      "count": "ספירה",
+      "min": "מינימום",
+      "max": "מקסימום"
+    },
+    "selection": {
+      "count": "ספירה",
+      "sum": "סכום",
+      "average": "ממוצע",
+      "ratio": "יחס"
+    },
+    "menu": {
+      "sortAsc": "מיון עולה",
+      "sortDesc": "מיון יורד",
+      "sortNone": "ללא מיון",
+      "freeze": "הקפאת עמודה",
+      "unfreeze": "ביטול הקפאה",
+      "hide": "הסתרת עמודה",
+      "show": "הצגת עמודה",
+      "filter": "סינון",
+      "format": "סינון ועיצוב",
+      "moveLeft": "הזזה שמאלה",
+      "moveRight": "הזזה ימינה",
+      "moveStart": "הזזה להתחלה",
+      "moveEnd": "הזזה לסוף",
+      "moveUp": "הזזה למעלה",
+      "moveDown": "הזזה למטה"
+    },
+    "deviations": {
+      "title": "עמודות השוואה",
+      "add": "הוספת השוואה",
+      "name": "שם",
+      "first": "ערך ראשון",
+      "second": "ערך שני",
+      "diff": "הפרש",
+      "percent": "הפרש",
+      "remove": "הסרת השוואה"
+    },
+    "panel": {
+      "title": "הגדרות הדוח",
+      "close": "סגירה",
+      "back": "חזרה",
+      "reset": "איפוס",
+      "save": "שמירת תבנית",
+      "presets": "תבניות שמורות",
+      "columns": "עמודות",
+      "search": "חיפוש",
+      "fields": "שדות",
+      "remove": "הסרה",
+      "settings": "הגדרות שדה",
+      "aggregation": "חישוב"
+    },
+    "zones": {
+      "rows": "שורות",
+      "columns": "עמודות",
+      "values": "ערכים",
+      "dropHere": "גררו שדה לכאן",
+      "toRows": "העברה לשורות",
+      "toColumns": "העברה לעמודות",
+      "toValues": "העברה לערכים"
+    },
+    "filter": {
+      "title": "ערכים להצגה",
+      "all": "בחירת הכול",
+      "none": "ניקוי הכול",
+      "clear": "הסרת סינון",
+      "empty": "(ריק)"
+    },
+    "format": {
+      "title": "עיצוב מותנה",
+      "threshold": "הדגשה כשהערך",
+      "operator": "בחירת תנאי",
+      "value": "ערך",
+      "to": "עד",
+      "operators": {
+        "gt": "גדול מ-",
+        "gte": "גדול או שווה ל-",
+        "lt": "קטן מ-",
+        "lte": "קטן או שווה ל-",
+        "eq": "שווה ל-",
+        "between": "בין"
+      },
+      "stat": "הדגשה סטטיסטית",
+      "stats": {
+        "none": "ללא",
+        "top10": "10 הגבוהים",
+        "top10pct": "10% העליונים",
+        "bottom10": "10 הנמוכים",
+        "bottom10pct": "10% התחתונים",
+        "aboveAvg": "מעל הממוצע",
+        "belowAvg": "מתחת לממוצע"
+      },
+      "duplicates": "הדגשת ערכים כפולים",
+      "clear": "הסרת עיצוב"
+    },
+    "presets": {
+      "empty": "אין עדיין תבניות שמורות",
+      "apply": "החלה",
+      "makeDefault": "הגדרה כברירת מחדל",
+      "isDefault": "ברירת מחדל",
+      "rename": "שינוי שם",
+      "delete": "מחיקה",
+      "saveTitle": "שמירת תבנית",
+      "name": "שם",
+      "saveNew": "שמירה כחדשה",
+      "override": "עדכון התבנית",
+      "renameTitle": "שינוי שם התבנית",
+      "cancel": "ביטול",
+      "applied": "בשימוש"
+    }
+  },
+  "dataHistory": {
+    "title": "היסטוריית נתונים",
+    "back": "חזרה לדוחות",
+    "filtersOn": "{count, plural, one {מסנן אחד} other {# מסננים}}",
+    "clearFilters": "ניקוי מסננים",
+    "export": "ייצוא לאקסל",
+    "modes": {
+      "label": "תצוגה",
+      "table": "טבלה",
+      "pivot": "טבלת ציר",
+      "analysis": "ניתוח"
+    },
+    "reports": {
+      "components": {
+        "title": "רכיבי שכר",
+        "section": "תשלומים",
+        "description": "כל רכיבי השכר ששולמו, לפי עובד וחודש"
+      },
+      "imputed": {
+        "title": "הכנסות זקופות",
+        "section": "זקיפות",
+        "description": "שווי הטבות שנזקף לשכר החייב במס"
+      },
+      "deductions": {
+        "title": "ניכויי רשות",
+        "section": "ניכויים",
+        "description": "הלוואות, מקדמות, מס ארגון וניכויים שאינם לפי חוק"
+      },
+      "costing": {
+        "title": "דוח תמחיר",
+        "section": "סיכום",
+        "description": "שכר ועלות מלאה לכל עובד, חודש אחר חודש"
+      },
+      "funds": {
+        "title": "קופות גמל",
+        "section": "קופות סוציאליות",
+        "description": "הפקדות לכל קופה לפי רכיב, עם מספרי עמית וסניף"
+      },
+      "absences": {
+        "title": "היעדרויות",
+        "section": "היעדרויות",
+        "description": "יתרות חופשה, מחלה, הבראה ומילואים"
+      }
+    },
+    "fields": {
+      "year": "שנת עבודה",
+      "employee_number": "מספר עובד",
+      "employee_name": "שם עובד",
+      "department": "שם מחלקה",
+      "month": "חודש עבודה",
+      "quarter": "רבעון",
+      "half": "חצי שנה",
+      "sub_department": "שם תת מחלקה",
+      "national_id": "מספר זהות",
+      "company_name": "שם חברה",
+      "code": "קוד רכיב",
+      "component_name": "שם רכיב",
+      "rate": "תעריף",
+      "quantity": "כמות",
+      "total": "סה\"כ",
+      "standing": "ה. קבע",
+      "gross": "ברוטו",
+      "bl_employee": "ב.ל. עובד",
+      "income_tax": "מס הכנסה",
+      "funds_employee": "גמל + קה\"ל עובד",
+      "voluntary_deductions": "ניכויי רשות",
+      "net": "נטו לתשלום",
+      "bl_employer": "ב.ל. מעסיק",
+      "funds_employer": "גמל + קה\"ל מעסיק",
+      "severance_reserve": "עתודה לפיצויים",
+      "vacation_reserve": "עתודה לחופש",
+      "recuperation_reserve": "עתודה להבראה",
+      "employer_cost": "עלות מעסיק",
+      "bl_foreign_exemption": "פטור ב.ל.  ת.חוץ",
+      "organization_tax": "מס אירגון",
+      "advance": "מקדמה",
+      "hours": "כמות שעות",
+      "days": "כמות ימים",
+      "fund_code": "קוד קופה",
+      "fund_name": "שם קופה",
+      "fund_kind": "סוג קופה",
+      "fund_salary": "שכר לגמל",
+      "fund_employee": "גמל עובד",
+      "disability_employee": "א. כושר עובד",
+      "other_employee": "שונות עובד",
+      "total_employee": "סה\"כ עובד",
+      "fund_employer": "גמל מעסיק",
+      "disability_employer": "א. כושר מעסיק",
+      "other_employer": "שונות מעסיק",
+      "severance": "פיצויים",
+      "total_employer": "סה\"כ מעסיק",
+      "total_both": "סה\"כ עובד ומעסיק",
+      "member_number": "מספר עמית",
+      "branch": "מספר סניף",
+      "work_days": "ימי עבודה",
+      "amounts_ref": "ע. ע. סכומים",
+      "group": "קבוצה",
+      "calendar_month": "חודש",
+      "reserve_used": "מילואים - ניצול חודשי",
+      "vacation": {
+        "code": "קוד חופש",
+        "name": "שם חופש",
+        "year_opening": "חופש - יתרת פתיחה",
+        "adjustment": "חופש - קליטה חד פעמית",
+        "previous": "חופש - יתרה קודמת",
+        "latest": "חופש - יתרה אחרונה",
+        "accrued": "חופש - צבירה חודשית",
+        "used": "חופש - ניצול חודשי",
+        "balance": "חופש - יתרה חודשית"
+      },
+      "sick": {
+        "code": "קוד מחלה",
+        "name": "שם מחלה",
+        "year_opening": "מחלה - יתרת פתיחה",
+        "adjustment": "מחלה - קליטה חד פעמית",
+        "previous": "מחלה - יתרה קודמת",
+        "latest": "מחלה - יתרה אחרונה",
+        "accrued": "מחלה - צבירה חודשית",
+        "used": "מחלה - ניצול חודשי",
+        "balance": "מחלה - יתרה חודשית"
+      },
+      "recuperation": {
+        "code": "קוד הבראה",
+        "name": "שם הבראה",
+        "year_opening": "הבראה - יתרת פתיחה",
+        "adjustment": "הבראה - קליטה חד פעמית",
+        "previous": "הבראה - יתרה קודמת",
+        "latest": "הבראה - יתרה אחרונה",
+        "accrued": "הבראה - צבירה חודשית",
+        "used": "הבראה - ניצול חודשי",
+        "balance": "הבראה - יתרה חודשית"
+      }
+    },
+    "analysis": {
+      "componentsTotal": "סה\"כ שולם",
+      "imputedTotal": "סה\"כ נזקף",
+      "deductionsTotal": "סה\"כ נוכה",
+      "employees": "עובדים",
+      "perEmployeeMonth": "ממוצע לעובד לחודש",
+      "items": "רכיבים",
+      "byMonth": "לפי חודש",
+      "byItem": "לפי רכיב",
+      "topEmployees": "העובדים הגבוהים ביותר",
+      "byDepartment": "לפי מחלקה",
+      "onTop": "עלות מעסיק מעל הברוטו",
+      "reserves": "עתודות",
+      "costByMonth": "לאן הולכת העלות, לפי חודש",
+      "reservesByMonth": "עתודות לפי חודש",
+      "funds": "קופות",
+      "depositsByMonth": "הפקדות לפי חודש",
+      "byFund": "לפי קופה",
+      "byFundKind": "לפי סוג קופה",
+      "vacationOwed": "ימי חופשה צבורים",
+      "usedByMonth": "ימי היעדרות לפי חודש",
+      "topVacation": "יתרות החופשה הגבוהות ביותר",
+      "topSick": "הכי הרבה ימי מחלה",
+      "vacationByDepartment": "ימי חופשה לפי מחלקה",
+      "other": "אחר"
+    }
+  }
+}
